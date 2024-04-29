@@ -1,0 +1,6 @@
+#header {
+    width: 100vh;
+    height: 120px;
+    flex-shrink: 0;
+
+}
