@@ -1,8 +1,6 @@
-async function render_nav(parent_ID) {
+async function render_nav(parent) {
     let resource = await fetch("../database/databaseexample.json");
     const database = await resource.json();
-
-    const parent = document.querySelector(parent_ID);
     const nav_wrapper = document.createElement("div");
 
     nav_wrapper.id = "nav_wrapper";
