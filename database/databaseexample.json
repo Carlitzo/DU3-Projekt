@@ -14,6 +14,8 @@
     "COUNTRIES": [
         {
             "country_name": "Spain",
+            "ISO_code": "ES",
+            "flag": "media/flags/spain_flag.png",
             "introductory_text": "Spanish cousine is the",
             "recipes": [
                 {
@@ -182,6 +184,8 @@
         },
         {
             "country_name": "England",
+            "ISO_code": "GB",
+            "flag": "media/flags/britain_flag.png",
             "introductory_text": "English food has been a..",
             "recipes": [
                 {
@@ -308,6 +312,8 @@
         },
         {
             "country_name": "Italy",
+            "ISO_code": "IT",
+            "flag": "media/flags/italy_flag.png",
             "introductory_text": "Italian food has been a..",
             "recipes": [
                 {
@@ -421,6 +427,8 @@
         },
         {
             "country_name": "India",
+            "ISO_code": "IN",
+            "flag": "media/flags/india_flag.png",
             "introductory_text": "Indian food has been a..",
             "recipes": [
                 {
@@ -565,6 +573,8 @@
         },
         {
             "country_name": "Nigeria",
+            "ISO_code": "NG",
+            "flag": "media/flags/nigeria_flag.png",
             "introductory_text": "Nigeria has been a staple..",
             "recipes": [
                 {

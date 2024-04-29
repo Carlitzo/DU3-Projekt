@@ -1,3 +1,25 @@
-function render_nav() {
-    
+function render_nav(parent_ID) {
+    const parent = document.querySelector(parent_ID);
+    const nav_wrapper = document.createElement("div");
+    nav_wrapper.id = "nav_wrapper";
+    parent.appendChild(nav_wrapper);
+
+    for (let element of COUNTRIES) {
+        let flag_wrapper = document.createElement("div");
+        let img = document.createElement("img");
+        let p = document.createElement("p");
+
+        nav_wrapper.appendChild(flag_wrapper);
+        flag_wrapper.appendChild(img);
+        flag_wrapper.appendChild(p)
+
+        flag_wrapper.className = "flag_wrapper";
+        img.className = "flag_img";
+        p.className = "country_p";
+        
+        img.setAttribute(src, element.flag);
+        p.textContent = element.ISO_code;
+
+    }
+
 }
