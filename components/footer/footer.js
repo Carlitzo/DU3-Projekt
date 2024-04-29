@@ -1,4 +1,2 @@
 function render_footer(){
- 
-    
 }
