@@ -25,4 +25,15 @@
     line-height: normal;
     margin-top: 0;
     margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+#slogan {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 150px;
 }
