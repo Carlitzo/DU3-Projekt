@@ -1,0 +1,39 @@
+#nav_wrapper {
+    width: 105px;
+    height: 100%;
+    flex-shrink: 0; 
+    border-right: 1px solid #B7A287;
+    background: #152028;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flag_wrapper {
+
+    width: 75px;
+    height: 95px;
+    flex-shrink: 0; 
+    fill: #172C36;
+    stroke-width: 1px;
+    stroke: #B7A287; 
+}
+
+.flag_img {
+    width: 50px;
+    height: 32.143px;
+    flex-shrink: 0;
+}
+
+.country_p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
