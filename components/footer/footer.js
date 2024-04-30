@@ -20,6 +20,7 @@ function render_footer(parent_id){
             <a href ="#"> <i class ='fa-brands fa-instagram'></i></a>  
             <a href ="#"> <i class ='fa-brands fa-twitter'></i></a>  
             <a href ="#"> <i class ='fa-brands fa-youtube'></i></a>  
+            
         </div>
             
         <div id='footer_nav'>
