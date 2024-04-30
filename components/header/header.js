@@ -8,7 +8,7 @@ function render_header(parent) {
     <p id="slogan" class="heading">Discover food from around the globe</p>
     </div>
     <h1 id="current_country></h1> 
-    <img href="../../media/profile_icon/profile_icon.png>`;
+    <i class="fa-solid fa-user"></i>`;
 
     parent.appendChild(header_container);
 
