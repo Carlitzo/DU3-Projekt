@@ -37,3 +37,11 @@
     line-height: normal;
     margin-left: 150px;
 }
+
+#name_slogan i {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    top: 36px;
+}
