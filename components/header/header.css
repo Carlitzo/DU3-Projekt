@@ -38,10 +38,30 @@
     margin-left: 150px;
 }
 
-#name_slogan i {
-    color: white;
-    font-size: 40px;
+.user_icon{
+    background-color: white;
     position: absolute;
     right: 20px;
     top: 36px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.user_icon i {
+    color: #152028;
+    font-size: 40px;
+}
+
+
+
+
+#name_slogan .user_icon:hover{
+    background-color: #152028;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#name_slogan .user_icon:hover i{
+    color: whitesmoke;
+    transition: 0.5s;
 }
