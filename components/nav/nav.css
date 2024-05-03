@@ -25,6 +25,11 @@
     fill: #172C36;
     stroke-width: 1px;
     stroke: #B7A287; 
+    margin-bottom: 30px;
+}
+
+.flag_wrapper:nth-child(1) {
+    margin-top: 60px;
 }
 
 .flag_img {
