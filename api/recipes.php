@@ -16,6 +16,6 @@ $filename = file_get_contents("./database.json");
 $json = json_decode($filename, true);
 
 if ($requestMethod == "GET") {
-    send(200, $json["COUNTRIES"]);
+    send(200, $json["RECIPES"]);
 }
 ?>

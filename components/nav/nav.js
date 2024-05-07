@@ -1,5 +1,5 @@
 async function render_nav(parent) {
-    let resource = await fetch("../database/databaseexample.json");
+    let resource = await fetch("../api/database.json");
     const database = await resource.json();
     const nav_wrapper = document.createElement("div");
 
@@ -23,5 +23,4 @@ async function render_nav(parent) {
         img.setAttribute("src", element.flag);
         p.textContent = element.ISO_code;
     }
-    console.log("Hej")
 }
