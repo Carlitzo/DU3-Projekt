@@ -6,9 +6,10 @@
 }
 
 footer {
+    grid-row: 3/4;
+    height: 130px;
     background-color: #152028;
     width: 100vw;
-    position: absolute;
     bottom: 0;
     border-top: 1px solid #B7A287;
 

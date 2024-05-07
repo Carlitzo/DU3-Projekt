@@ -4,6 +4,8 @@
 }
 
 #nav_wrapper {
+    grid-row: 2/3;
+    grid-column: 1/2;
     width: 105px;
     height: 100%;
     flex-shrink: 0; 
