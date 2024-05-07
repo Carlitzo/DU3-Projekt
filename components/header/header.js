@@ -13,5 +13,4 @@ function render_header(parent) {
     </div>`;
 
     parent.appendChild(header_container);
-
 }
