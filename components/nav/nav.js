@@ -18,7 +18,7 @@ async function render_nav(parent) {
         flag_wrapper.className = "flag_wrapper";
         img.className = "flag_img";
         p.className = "country_p";
-        
+
         img.setAttribute("src", element.flag);
         p.textContent = element.ISO_code;
     }
