@@ -15,7 +15,11 @@ $requestMethod = $_SERVER["REQUEST_METHOD"];
 $requestData = getRequestData();
 
 if ($requestMethod == "GET") // Get one or all COUNTRIES
-{
+{ 
+    foreach("COUNTRIES" as $country){
+        
+    }
+
     if (isset($requestData["id"])) {
         $id = $requestData["id"];
         $country = findItemByKey("COUNTRIES", "id", $id);
@@ -29,12 +33,7 @@ if ($requestMethod == "GET") // Get one or all COUNTRIES
 
     $user = getUserFromToken($requestData["token"]);
 
-    $COUNTRIES = getDatabaseByType("COUNTRIES");
-    foreach ($COUNTRIES as $index => &$country) {
-        if ($country["user_id"] != $user["id"]) {
-            array_splice($COUNTRIES, $index, 1);
-        }
-    }
+   
     send(200, $COUNTRIES);
 }
 else if ($requestMethod == "POST") // Create a new country (token required)
