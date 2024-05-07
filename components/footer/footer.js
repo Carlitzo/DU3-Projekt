@@ -13,7 +13,7 @@ function render_footer(parent_id){
    function render_inside_footer(parent){
     parent.innerHTML =`
     <div id='footer_container'>
-        <img src='../media/favicon/recipe-book.png'>
+        <i class="fa-solid fa-bowl-rice"></i>
             
         <div id= 'footer_icons'>
             <a href ="#"> <i class ='fa-brands fa-facebook'></i></a>  

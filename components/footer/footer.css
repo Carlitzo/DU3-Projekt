@@ -6,9 +6,10 @@
 }
 
 footer {
+    grid-row: 3/4;
+    height: 130px;
     background-color: #152028;
     width: 100vw;
-    position: absolute;
     bottom: 0;
     border-top: 1px solid #B7A287;
 
@@ -20,11 +21,7 @@ footer {
 #footer_container > img{
 width: 100px;
 height: 100px;
-position: absolute;
-margin-left: 90px;
-background-color: white;
-border-radius: 20% 0 20% 0;
-padding: 5px;
+
 }
 
 #footer_container{
@@ -48,6 +45,15 @@ padding: 5px;
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+.fa-bowl-rice{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 15px;
+    padding: 5px;
 }
 
 #footer_icons a{
