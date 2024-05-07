@@ -10,6 +10,11 @@ footer {
     width: 100vw;
     position: absolute;
     bottom: 0;
+    border-top: 1px solid #B7A287;
+
+    border-right: 1px solid #B7A287;
+
+    border-bottom: 1px solid #B7A287;
 }
 
 #footer_container > img{

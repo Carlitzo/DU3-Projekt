@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../../font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
 #nav_wrapper {
     width: 105px;
     height: 100%;
@@ -14,13 +19,17 @@
 }
 
 .flag_wrapper {
-
     width: 75px;
     height: 95px;
     flex-shrink: 0; 
     fill: #172C36;
     stroke-width: 1px;
     stroke: #B7A287; 
+    margin-bottom: 30px;
+}
+
+.flag_wrapper:nth-child(1) {
+    margin-top: 60px;
 }
 
 .flag_img {
@@ -30,6 +39,7 @@
 }
 
 .country_p {
+    margin: 0;
     color: #FFF;
     font-family: Montserrat;
     font-size: 20px;
