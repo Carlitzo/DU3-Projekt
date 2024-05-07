@@ -16,9 +16,6 @@ $requestData = getRequestData();
 
 if ($requestMethod == "GET") // Get one or all COUNTRIES
 { 
-    foreach("COUNTRIES" as $country){
-        
-    }
 
     if (isset($requestData["id"])) {
         $id = $requestData["id"];
