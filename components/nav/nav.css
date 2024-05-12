@@ -14,9 +14,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -32,7 +30,7 @@
 }
 
 .flag_wrapper:nth-child(1) {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .flag_img {

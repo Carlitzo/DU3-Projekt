@@ -2,15 +2,16 @@ async function render_countries (images){
     images.forEach(image => {
         image.addEventListener("click", async () => {
             const countryName = image.querySelector("img").id;
-            const countryname_header = countryName.toUpperCase();
             const countryId =  image.querySelector("img").getAttribute("country_id");
 
             document.querySelector("#wrapper").innerHTML = "";
+            
             render_nav(wrapper);
             render_footer(wrapper);
             render_header(wrapper);
+
             const header_1 = document.querySelector("#header");
-            header_1.innerHTML+= `<p class='selected_country'>${countryname_header}</p>`
+            header_1.innerHTML+= `<p class='selected_country'>${countryName.toUpperCase()}</p>`
             
 
             try {
