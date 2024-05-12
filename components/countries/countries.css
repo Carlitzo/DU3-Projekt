@@ -89,3 +89,15 @@
     font-size: 25px;
     padding: 20px;
 }
+
+.selected_country{
+    color: #B7A287 ;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 360px;
+    font-size: 59px;
+  bottom: 70px;
+    font-family: "Montserrat";
+
+}
