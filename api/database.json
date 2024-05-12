@@ -24,35 +24,40 @@
             "id": 1,
             "ISO_code": "ES",
             "flag": "media\/flags\/spain_flag.png",
-            "introductory_text": "Spanish cousine is the"
+            "country_image":"media\/country_images\/Spain.jpg",
+            "introductory_text": "Spanish cuisine delights with its vibrant flavors, diverse ingredients, and cultural influences, reflecting the country's rich history and culinary creativity."
         },
         {
             "country_name": "England",
             "id": 2,
             "ISO_code": "GB",
             "flag": "media\/flags\/britain_flag.png",
-            "introductory_text": "English food has been a.."
+            "country_image":"media\/country_images\/England.jpg",
+            "introductory_text": "English cuisine features hearty dishes, traditional roasts, and comforting desserts, blending classic recipes with modern influences for a flavorful culinary experience that reflects the country's diverse history and culinary evolution."
         },
         {
             "country_name": "Italy",
             "id": 3,
             "ISO_code": "IT",
             "flag": "media\/flags\/italy_flag.png",
-            "introductory_text": "Italian food has been a.."
+            "country_image":"media\/country_images\/Italy.jpg",
+            "introductory_text": "Italian cuisine is renowned for its rich flavors, fresh ingredients, and intricate culinary techniques, embodying centuries of gastronomic tradition and innovation."
         },
         {
             "country_name": "India",
             "id": 4,
             "ISO_code": "IN",
             "flag": "media\/flags\/india_flag.png",
-            "introductory_text": "Indian food has been a.."
+            "country_image":"media\/country_images\/India.jpg",
+            "introductory_text": "Indian cuisine entices with its aromatic spices, diverse flavors, and rich culinary traditions, offering a vibrant tapestry of dishes reflecting the country's cultural diversity and culinary heritage.."
         },
         {
             "country_name": "Nigeria",
             "id": 5,
             "ISO_code": "NG",
             "flag": "media\/flags\/nigeria_flag.png",
-            "introductory_text": "Nigeria has been a staple.."
+            "country_image":"media\/country_images\/Nigeria.jpg",
+            "introductory_text": "Nigerian cuisine captivates with its bold flavors, spicy dishes, and diverse ingredients, showcasing a rich culinary tapestry influenced by regional traditions and cultural heritage, reflecting the country's vibrant culinary landscape."
         }
     ],
     "RECIPES": [
@@ -69,7 +74,7 @@
                 "2 tablespoons cornstarch",
                 "Extra sugar for caramelizing"
             ],
-            "description": "Crema Catalana is a traditional Spanish dessert, similar to cr\u00e8me br\u00fbl\u00e9e but with a lighter texture and infused with cinnamon and orange.",
+            "description": "Crema Catalana is a traditional Spanish dessert, similar to crme brle but with a lighter texture and infused with cinnamon and orange.",
             "steps": [
                 "1. In a saucepan, heat the milk with the cinnamon stick and orange peel over medium heat until it almost boils. Remove from heat and let it infuse for 15 minutes. Then, remove the cinnamon stick and orange peel.",
                 "2. In a bowl, whisk together the egg yolks, sugar, and cornstarch until well combined and slightly pale in color.",
@@ -79,30 +84,30 @@
                 "6. Before serving, sprinkle a thin layer of sugar over the top of each custard. Use a culinary torch to caramelize the sugar until it forms a crispy crust.",
                 "7. Let the caramelized sugar cool and harden for a minute before serving, optionally top with some orange zes. Enjoy your delicious Crema Catalana!"
             ],
-            "image": "url...",
-            "preparation_time": 45
+            "image": "media\/spanish_dishes\/Crema_Catalana.jpg",
+            "preparation_time": "45 minutes" 
         },
         {
             "recipe_id": 2,
             "country_id": 1,
-            "name": "Alb\u00f3ndigas",
+            "name": "Albóndigas",
             "ingredients": [
                 "500g ground beef",
-                "1\/2 cup breadcrumbs",
-                "1\/4 cup milk",
+                "1/2 cup breadcrumbs",
+                "1/4 cup milk",
                 "1 small onion, finely chopped",
                 "2 cloves garlic, minced",
                 "1 egg",
                 "1 teaspoon dried oregano",
                 "1 teaspoon ground cumin",
-                "1\/2 teaspoon paprika",
+                "1/2 teaspoon paprika",
                 "Salt and pepper to taste",
                 "2 tablespoons olive oil",
                 "1 can (400g) crushed tomatoes",
                 "1 cup beef broth",
-                "1\/2 cup chopped fresh cilantro or parsley, for garnish"
+                "1/2 cup chopped fresh cilantro or parsley, for garnish"
             ],
-            "description": "Alb\u00f3ndigas are Spanish meatballs cooked in a flavorful tomato sauce, perfect as a tapas dish or served over rice or with crusty bread.",
+            "description": "Albndigas are Spanish meatballs cooked in a flavorful tomato sauce, perfect as a tapas dish or served over rice or with crusty bread.",
             "steps": [
                 "1. In a large bowl, combine the ground beef, breadcrumbs, milk, chopped onion, minced garlic, egg, oregano, cumin, paprika, salt, and pepper. Mix until well combined.",
                 "2. Shape the mixture into small meatballs, about 1 inch in diameter.",
@@ -111,10 +116,10 @@
                 "5. In the same skillet, add the crushed tomatoes and beef broth. Bring to a simmer, scraping up any browned bits from the bottom of the pan.",
                 "6. Return the meatballs to the skillet, nestling them into the sauce. Cover and simmer for 20-25 minutes, or until the meatballs are cooked through and the sauce has thickened slightly.",
                 "7. Taste the sauce and adjust seasoning with salt and pepper if necessary.",
-                "8. Serve the Alb\u00f3ndigas hot, garnished with chopped fresh cilantro or parsley. Enjoy!"
+                "8. Serve the Albndigas hot, garnished with chopped fresh cilantro or parsley. Enjoy!"
             ],
-            "image": "url...",
-            "preparation_time": 40
+            "image": "media\/spanish_dishes\/Albóndigas.jpg",
+            "preparation_time": "40 minutes"
         },
         {
             "recipe_id": 3,
@@ -129,7 +134,7 @@
                 "1 onion, finely chopped",
                 "2 cloves garlic, minced",
                 "1 teaspoon smoked paprika",
-                "1\/2 teaspoon hot paprika or cayenne pepper (adjust to taste)",
+                "1/2 teaspoon hot paprika or cayenne pepper (adjust to taste)",
                 "1 can (400g) diced tomatoes",
                 "1 tablespoon white wine vinegar",
                 "Salt and pepper to taste",
@@ -139,7 +144,7 @@
             ],
             "description": "Patatas Bravas are crispy fried potatoes served with a spicy tomato sauce, a classic Spanish tapas dish that packs a punch of flavor.",
             "steps": [
-                "1. Preheat the oven to 425\u00b0F (220\u00b0C).",
+                "1. Preheat the oven to 425F (220C).",
                 "2. Place the potato cubes on a baking sheet and drizzle with olive oil. Toss to coat evenly, then spread them out in a single layer. Sprinkle with salt.",
                 "3. Roast the potatoes in the preheated oven for 25-30 minutes, or until golden and crispy, flipping halfway through cooking.",
                 "4. While the potatoes are roasting, prepare the Brava Sauce. In a saucepan, heat olive oil over medium heat. Add the chopped onion and cook until softened, about 5 minutes.",
@@ -148,8 +153,8 @@
                 "7. Once the potatoes are done, transfer them to a serving platter. Drizzle the Brava Sauce over the top, or serve it on the side for dipping.",
                 "8. Garnish the Patatas Bravas with chopped fresh parsley or cilantro. Serve hot, optionally with mayonnaise or aioli on the side for extra creaminess. Enjoy!"
             ],
-            "image": "url...",
-            "preparation_time": 45
+            "image": "media\/spanish_dishes\/Patatas_Bravas.jpg",
+            "preparation_time": "45 minutes"
         },
         {
             "recipe_id": 4,
@@ -177,8 +182,8 @@
                 "5. Before serving, give the gazpacho a good stir. Serve it cold in bowls or glasses, garnished with diced cucumber, bell pepper, red onion, croutons, fresh herbs, and a drizzle of olive oil if desired.",
                 "6. Enjoy this refreshing Gazpacho as a starter or light meal on a hot summer day!"
             ],
-            "image": "url...",
-            "preparation_time": 20
+            "image": "media\/spanish_dishes\/Gazpacho.jpg",
+            "preparation_time": "20 minutes"
         },
         {
             "recipe_id": 5,
@@ -215,8 +220,8 @@
                 "9. Once done, remove the paella from the heat and let it rest for a few minutes. Garnish with fresh parsley and serve hot with lemon wedges on the side.",
                 "10. Enjoy this flavorful Paella with Prawns, Small Octopus, and Mussels, a true taste of Spain!"
             ],
-            "image": "url...",
-            "preparation_time": 45
+            "image": "media\/spanish_dishes\/Paella.jpg",
+            "preparation_time": "45 minutes"
         },
         {
             "recipe_id": 6,
@@ -236,7 +241,7 @@
             ],
             "description": "A hearty breakfast spread featuring a variety of savory ingredients, perfect for starting the day.",
             "instruction": [
-                "Preheat the oven to 200\u00b0C (400\u00b0F).",
+                "Preheat the oven to 200C (400F).",
                 "In a large frying pan, cook the sausages and bacon over medium heat until browned and cooked through, about 10-12 minutes. Remove from the pan and keep warm.",
                 "In the same pan, add the sliced mushrooms and cherry tomatoes. Cook until the mushrooms are golden brown and the tomatoes are slightly softened, about 5-7 minutes.",
                 "Meanwhile, heat the baked beans in a small saucepan over medium heat until hot.",
@@ -247,8 +252,8 @@
                 "Season everything with salt and pepper to taste.",
                 "Serve immediately with the toasted bread on the side. Enjoy your hearty Full English Breakfast!"
             ],
-            "image": "url_to_image",
-            "prep_time": "30 minutes"
+            "image": "media\/british_dishes\/english_breakfast.jpg",
+            "preparation_time": "30 minutes"
         },
         {
             "recipe_id": 7,
@@ -272,7 +277,7 @@
             ],
             "description": "A comforting classic British dish made with savory minced meat and topped with creamy mashed potatoes.",
             "instruction": [
-                "Preheat the oven to 200\u00b0C (400\u00b0F).",
+                "Preheat the oven to 200C (400F).",
                 "In a large skillet or frying pan, heat some oil over medium heat. Add the chopped onion and carrots and cook until softened, about 5 minutes.",
                 "Add the minced garlic and ground lamb or beef to the pan. Cook until the meat is browned, breaking it up with a spoon as it cooks.",
                 "Stir in the tomato paste, Worcestershire sauce, dried thyme, salt, and pepper. Cook for another 2-3 minutes.",
@@ -284,8 +289,8 @@
                 "Bake in the preheated oven for 20-25 minutes, or until the mashed potatoes are golden brown and the filling is bubbling around the edges.",
                 "Remove from the oven and let it cool for a few minutes before serving. Enjoy your homemade Shepherd's Pie!"
             ],
-            "image": "url_to_image",
-            "prep_time": "1 hour"
+            "image": "media\/british_dishes\/Shepherds_Pie.jpg",
+            "preparation_time": "1 hour"
         },
         {
             "recipe_id": 8,
@@ -302,17 +307,17 @@
             ],
             "description": "A classic British dish featuring crispy battered fish and golden chips.",
             "instruction": [
-                "Preheat the oven to 200\u00b0C (400\u00b0F).",
+                "Preheat the oven to 200C (400F).",
                 "Pat the fish fillets dry with paper towels and season with salt and pepper. Set aside.",
                 "In a large mixing bowl, combine the flour, baking powder, salt, and pepper. Gradually whisk in the sparkling water until you have a smooth batter.",
-                "In a deep fryer or large, heavy-bottomed pot, heat the vegetable oil to 180\u00b0C (350\u00b0F).",
+                "In a deep fryer or large, heavy-bottomed pot, heat the vegetable oil to 180C (350F).",
                 "Dredge each fish fillet in flour, shaking off any excess, then dip it into the batter, coating it evenly.",
                 "Carefully lower the battered fish into the hot oil and fry for about 5-6 minutes, or until golden brown and crispy. Remove from the oil with a slotted spoon and drain on paper towels.",
                 "In batches, fry the potato chips in the hot oil for about 3-4 minutes, or until golden brown and crispy. Remove from the oil and drain on paper towels. Keep warm in the preheated oven while you fry the remaining chips.",
                 "Once all the fish and chips are cooked, serve immediately with your choice of accompaniments, such as tartar sauce, malt vinegar, or mushy peas. Enjoy your homemade fish and chips!"
             ],
-            "image": "url_to_image",
-            "prep_time": "45 minutes"
+            "image": "media\/british_dishes\/fish_chips.jpg",
+            "preparation_time": "45 minutes"
         },
         {
             "recipe_id": 9,
@@ -327,7 +332,7 @@
             ],
             "description": "A traditional British side dish, crispy on the outside and fluffy on the inside.",
             "instruction": [
-                "Preheat the oven to 220\u00b0C (425\u00b0F).",
+                "Preheat the oven to 220C (425F).",
                 "In a large mixing bowl, whisk together the eggs and milk until well combined.",
                 "Gradually add the flour and salt to the egg and milk mixture, whisking continuously until a smooth batter forms. Let the batter rest for at least 30 minutes at room temperature.",
                 "While the batter is resting, generously grease a 12-cup muffin tin or a large baking dish with vegetable oil or beef drippings. Place the tin or dish in the preheated oven for about 10 minutes to heat the oil.",
@@ -335,8 +340,8 @@
                 "Place the tin or dish back into the oven and bake for 20-25 minutes, or until the Yorkshire puddings are puffed up, golden brown, and crispy on the edges.",
                 "Remove from the oven and serve immediately while hot and puffy. Yorkshire puddings are best served with roast beef and gravy, but they also make a delicious accompaniment to other roast meats or as part of a traditional Sunday roast."
             ],
-            "image": "url_to_image",
-            "prep_time": "45 minutes (including resting time)"
+            "image": "media\/british_dishes\/yourkshire_pudding.jpg",
+            "preparation_time": "45 minutes"
         },
         {
             "recipe_id": 10,
@@ -363,8 +368,8 @@
                 "Cover and refrigerate for at least 4 hours, or overnight.",
                 "Dust the top with cocoa powder before serving."
             ],
-            "image": "url_to_image",
-            "prep_time": "40 minutes"
+            "image": "media\/italian_dishes\/Tiramisu.jpg",
+            "preparation_time": "40 minutes"
         },
         {
             "recipe_id": 11,
@@ -380,7 +385,7 @@
             ],
             "description": "A traditional Italian pizza topped with tomatoes, mozzarella, and basil.",
             "instruction": [
-                "Preheat oven to its highest temperature, usually around 500\u00b0F (260\u00b0C).",
+                "Preheat oven to its highest temperature, usually around 500F (260C).",
                 "Roll out pizza dough into a circle on a floured surface.",
                 "Spread crushed tomatoes evenly over the dough, leaving a small border for the crust.",
                 "Arrange slices of fresh mozzarella cheese on top of the tomatoes.",
@@ -389,8 +394,8 @@
                 "Bake for 10-12 minutes, or until the crust is golden and the cheese is bubbly and slightly browned.",
                 "Remove from oven, let it cool for a minute, then slice and serve hot."
             ],
-            "image": "url_to_image",
-            "prep_time": "30 minutes"
+            "image": "media\/italian_dishes\/margherita_pizza.jpg",
+            "preparation_time": "30 minutes"
         },
         {
             "recipe_id": 12,
@@ -414,8 +419,8 @@
                 "Remove pan from heat and quickly pour in the egg and cheese mixture, stirring vigorously to coat the spaghetti.",
                 "Season with salt and additional black pepper if needed. Serve immediately."
             ],
-            "image": "url_to_image",
-            "prep_time": "20 minutes"
+            "image": "media\/italian_dishes\/spaghetti_carbonara.jpg",
+            "preparation_time": "20 minutes"
         },
         {
             "recipe_id": 13,
@@ -441,8 +446,8 @@
                 "Season with salt and black pepper to taste, and sprinkle the remaining parsley over the top.",
                 "Serve the spaghetti vongole immediately, garnished with extra parsley if desired."
             ],
-            "image": "url_to_image",
-            "prep_time": "30 minutes"
+            "image": "media\/italian_dishes\/spaghetti_carbonara.jpg",
+            "preparation_time": "30 minutes"
         },
         {
             "recipe_id": 14,
@@ -481,8 +486,8 @@
                 "Garnish with chopped fresh cilantro before serving.",
                 "Chickpea Tikka Masala pairs well with steamed rice, naan bread, or roti."
             ],
-            "image": "url_to_image",
-            "prep_time": "40 minutes"
+            "image": "media\/indian_dishes\/chickpea_tikka_masala.jpg",
+            "preparation_time": "40 minutes"
         },
         {
             "recipe_id": 15,
@@ -491,10 +496,10 @@
             "ingredients": [
                 "4 cups grated carrots",
                 "4 cups whole milk",
-                "1\/2 cup sugar (adjust to taste)",
-                "1\/4 cup ghee (clarified butter)",
-                "1\/4 cup chopped nuts (such as almonds, cashews, or pistachios)",
-                "1\/4 teaspoon cardamom powder",
+                "1/2 cup sugar (adjust to taste)",
+                "1/4 cup ghee (clarified butter)",
+                "1/4 cup chopped nuts (such as almonds, cashews, or pistachios)",
+                "1/4 teaspoon cardamom powder",
                 "A pinch of saffron strands (optional)",
                 "Raisins, for garnish (optional)"
             ],
@@ -510,8 +515,8 @@
                 "Garnish with more chopped nuts and raisins if desired.",
                 "Serve warm or cold, as desired. Carrot Halwa can be enjoyed on its own or with a scoop of vanilla ice cream."
             ],
-            "image": "url_to_image",
-            "prep_time": "1 hour"
+            "image": "media\/indian_dishes\/carrothalwa.jpg",
+            "preparation_time": "1 hour"
         },
         {
             "recipe_id": 16,
@@ -527,10 +532,10 @@
                 "2 green chilies, chopped (adjust to taste)",
                 "1 teaspoon cumin seeds",
                 "1 teaspoon garam masala",
-                "1\/2 teaspoon turmeric powder",
-                "1\/2 teaspoon ground coriander",
-                "1\/2 teaspoon ground cumin",
-                "1\/4 teaspoon cayenne pepper",
+                "1/2 teaspoon turmeric powder",
+                "1/2 teaspoon ground coriander",
+                "1/2 teaspoon ground cumin",
+                "1/4 teaspoon cayenne pepper",
                 "2 tablespoons vegetable oil",
                 "2 tablespoons cream or yogurt",
                 "Salt, to taste"
@@ -539,7 +544,7 @@
             "instruction": [
                 "Heat oil in a large skillet over medium heat.",
                 "Add cumin seeds and let them splutter.",
-                "Add chopped onion and saut\u00e9 until golden brown.",
+                "Add chopped onion and saut until golden brown.",
                 "Stir in minced garlic, grated ginger, and chopped green chilies. Cook for another minute.",
                 "Add chopped tomatoes and cook until they soften and release their juices.",
                 "Add turmeric powder, ground coriander, ground cumin, cayenne pepper, and salt. Stir to combine.",
@@ -548,7 +553,9 @@
                 "Transfer the mixture to a blender and blend until smooth. You may need to do this in batches.",
                 "Return the blended mixture to the skillet and place it back on the heat.",
                 "Add cubed paneer and garam masala to the skillet. Stir well to combine."
-            ]
+            ],
+            "image": "media\/indian_dishes\/saag_paneer.jpg",
+            "preparation_time": "1 hour"
         },
         {
             "recipe_id": 17,
@@ -579,8 +586,8 @@
                 "Cover and refrigerate Shahi Tukray for at least 2 hours, or until chilled and set.",
                 "Serve cold and enjoy the royal treat!"
             ],
-            "image": "url_to_image",
-            "prep_time": "30 minutes"
+            "image": "media\/indian_dishes\/shahi_tukray.jpg",
+            "preparation_time": "30 minutes"
         },
         {
             "recipe_id": 18,
@@ -606,7 +613,7 @@
             "description": "A flavorful one-pot dish made with rice, tomatoes, and a variety of spices.",
             "instruction": [
                 "Heat vegetable oil in a large pot over medium heat.",
-                "Add chopped onion and saut\u00e9 until translucent.",
+                "Add chopped onion and saut until translucent.",
                 "Add chicken or beef pieces and brown on all sides.",
                 "Stir in diced tomatoes, tomato paste, and diced red bell pepper. Cook for 5 minutes.",
                 "Add chicken or beef broth, thyme, curry powder, paprika, garlic powder, ginger powder, chopped scotch bonnet pepper (if using), and salt. Bring to a simmer.",
@@ -615,8 +622,8 @@
                 "Fluff the rice with a fork and serve hot.",
                 "Jollof rice is often served with fried plantains, grilled chicken, or fried fish."
             ],
-            "image": "url_to_image",
-            "prep_time": "45 minutes"
+            "image": "media\/nigerian_dishes\/jollof_rice.jpg",
+            "preparation_time": "45 minutes"
         },
         {
             "recipe_id": 19,
@@ -648,8 +655,8 @@
                 "Serve the pounded yam with the egusi soup.",
                 "Pounded yam and egusi soup are often enjoyed with assorted meats and fish."
             ],
-            "image": "url_to_image",
-            "prep_time": "1 hour 30 minutes"
+            "image": "media\/nigerian_dishes\/Pounded_Yam_and_Egusi_Soup.jpg",
+            "preparation_time": "1 hour 30 minutes"
         },
         {
             "recipe_id": 20,
@@ -672,8 +679,8 @@
                 "Serve hot, garnished with thinly sliced onions and extra suya spice mix if desired.",
                 "Suya is often served with sliced tomatoes, onions, and spicy pepper sauce."
             ],
-            "image": "url_to_image",
-            "prep_time": "30 minutes"
+            "image": "media\/nigerian_dishes\/suya.jpg",
+            "preparation_time": "30 minutes"
         },
         {
             "recipe_id": 21,
@@ -703,8 +710,8 @@
                 "Once the soup is well combined and flavored, remove from heat.",
                 "Serve the banga soup hot in bowls alongside boiled starch or fufu."
             ],
-            "image": "url_to_image",
-            "prep_time": "1 hour"
+            "image": "media\/nigerian_dishes\/suya.jpg",
+            "preparation_time": "1 hour"
         }
     ]
 }

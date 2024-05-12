@@ -1,0 +1,16 @@
+
+.save_icon{
+    border-radius: 20px;
+    border: 1px solid #B7A287;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.fa-bookmark{
+    color: #B7A287;
+    font-size: 60px;
+    
+}

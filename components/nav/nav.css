@@ -28,6 +28,7 @@
     stroke-width: 1px;
     stroke: #B7A287; 
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .flag_wrapper:nth-child(1) {
