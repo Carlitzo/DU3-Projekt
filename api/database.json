@@ -240,7 +240,7 @@
                 "Salt and pepper, to taste"
             ],
             "description": "A hearty breakfast spread featuring a variety of savory ingredients, perfect for starting the day.",
-            "instruction": [
+            "steps": [
                 "Preheat the oven to 200C (400F).",
                 "In a large frying pan, cook the sausages and bacon over medium heat until browned and cooked through, about 10-12 minutes. Remove from the pan and keep warm.",
                 "In the same pan, add the sliced mushrooms and cherry tomatoes. Cook until the mushrooms are golden brown and the tomatoes are slightly softened, about 5-7 minutes.",
@@ -276,7 +276,7 @@
                 "75g Cheddar cheese, grated (optional)"
             ],
             "description": "A comforting classic British dish made with savory minced meat and topped with creamy mashed potatoes.",
-            "instruction": [
+            "steps": [
                 "Preheat the oven to 200C (400F).",
                 "In a large skillet or frying pan, heat some oil over medium heat. Add the chopped onion and carrots and cook until softened, about 5 minutes.",
                 "Add the minced garlic and ground lamb or beef to the pan. Cook until the meat is browned, breaking it up with a spoon as it cooks.",
@@ -306,7 +306,7 @@
                 "Vegetable oil for frying"
             ],
             "description": "A classic British dish featuring crispy battered fish and golden chips.",
-            "instruction": [
+            "steps": [
                 "Preheat the oven to 200C (400F).",
                 "Pat the fish fillets dry with paper towels and season with salt and pepper. Set aside.",
                 "In a large mixing bowl, combine the flour, baking powder, salt, and pepper. Gradually whisk in the sparkling water until you have a smooth batter.",
@@ -331,7 +331,7 @@
                 "Vegetable oil or beef drippings for greasing"
             ],
             "description": "A traditional British side dish, crispy on the outside and fluffy on the inside.",
-            "instruction": [
+            "steps": [
                 "Preheat the oven to 220C (425F).",
                 "In a large mixing bowl, whisk together the eggs and milk until well combined.",
                 "Gradually add the flour and salt to the egg and milk mixture, whisking continuously until a smooth batter forms. Let the batter rest for at least 30 minutes at room temperature.",
@@ -357,7 +357,7 @@
                 "Cocoa powder, for dusting"
             ],
             "description": "A classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cream.",
-            "instruction": [
+            "steps": [
                 "Whisk together egg yolks and sugar until pale and creamy.",
                 "Add mascarpone cheese and beat until smooth and well combined.",
                 "In a separate bowl, beat egg whites until stiff peaks form.",
@@ -384,7 +384,7 @@
                 "Salt, to taste"
             ],
             "description": "A traditional Italian pizza topped with tomatoes, mozzarella, and basil.",
-            "instruction": [
+            "steps": [
                 "Preheat oven to its highest temperature, usually around 500F (260C).",
                 "Roll out pizza dough into a circle on a floured surface.",
                 "Spread crushed tomatoes evenly over the dough, leaving a small border for the crust.",
@@ -411,8 +411,8 @@
                 "Salt, to taste"
             ],
             "description": "A classic Italian pasta dish with a creamy egg and cheese sauce.",
-            "instruction": [
-                "Cook spaghetti according to package instructions until al dente.",
+            "steps": [
+                "Cook spaghetti according to package stepss until al dente.",
                 "In a separate pan, cook pancetta or guanciale until crispy.",
                 "In a bowl, whisk together eggs, Pecorino Romano cheese, Parmigiano-Reggiano cheese, and black pepper.",
                 "Drain spaghetti and add to the pan with pancetta, tossing to combine.",
@@ -438,8 +438,8 @@
                 "Black pepper, to taste"
             ],
             "description": "A classic Italian pasta dish featuring spaghetti cooked with fresh clams in a flavorful garlic and white wine sauce.",
-            "instruction": [
-                "Bring a large pot of salted water to a boil. Cook spaghetti according to package instructions until al dente. Reserve 1 cup of pasta cooking water, then drain the spaghetti and set aside.",
+            "steps": [
+                "Bring a large pot of salted water to a boil. Cook spaghetti according to package stepss until al dente. Reserve 1 cup of pasta cooking water, then drain the spaghetti and set aside.",
                 "While the spaghetti is cooking, heat olive oil in a large pan over medium heat. Add sliced garlic and red pepper flakes, and cook until the garlic is fragrant but not browned, about 1-2 minutes.",
                 "Increase the heat to medium-high, add the clams to the pan, and pour in the white wine. Cover the pan and cook until the clams open, about 5-7 minutes. Discard any clams that do not open.",
                 "Once the clams have opened, add the cooked spaghetti to the pan along with half of the chopped parsley. Toss everything together gently, adding some of the reserved pasta cooking water if the mixture seems dry.",
@@ -473,7 +473,7 @@
                 "Fresh cilantro, chopped, for garnish"
             ],
             "description": "A vegetarian version of the classic Indian dish made with chickpeas in a creamy and flavorful tomato-based sauce.",
-            "instruction": [
+            "steps": [
                 "Heat oil in a large skillet over medium heat.",
                 "Add chopped onion and cook until soft and translucent.",
                 "Stir in minced garlic, grated ginger, and chopped green chili (if using). Cook for another minute.",
@@ -504,7 +504,7 @@
                 "Raisins, for garnish (optional)"
             ],
             "description": "A traditional Indian dessert made with grated carrots, milk, sugar, and flavored with cardamom and nuts.",
-            "instruction": [
+            "steps": [
                 "In a large, heavy-bottomed pan, heat the ghee over medium heat.",
                 "Add the grated carrots and saut\u00e9 them in the ghee for about 5-7 minutes until they turn soft and release their aroma.",
                 "Pour in the whole milk and stir well. Bring the mixture to a boil.",
@@ -541,7 +541,7 @@
                 "Salt, to taste"
             ],
             "description": "A classic North Indian dish made with paneer (Indian cottage cheese) cooked in a creamy spinach sauce.",
-            "instruction": [
+            "steps": [
                 "Heat oil in a large skillet over medium heat.",
                 "Add cumin seeds and let them splutter.",
                 "Add chopped onion and saut until golden brown.",
@@ -573,7 +573,7 @@
                 "Rose water, for garnish (optional)"
             ],
             "description": "A rich and indulgent Indian dessert made with bread slices soaked in sweetened milk, flavored with cardamom and saffron.",
-            "instruction": [
+            "steps": [
                 "Remove the crusts from the bread slices and cut them into triangles or squares.",
                 "Heat ghee in a large skillet over medium heat.",
                 "Fry the bread slices in the ghee until golden brown and crisp on both sides. Remove and drain excess ghee on paper towels.",
@@ -611,7 +611,7 @@
                 "Vegetable oil"
             ],
             "description": "A flavorful one-pot dish made with rice, tomatoes, and a variety of spices.",
-            "instruction": [
+            "steps": [
                 "Heat vegetable oil in a large pot over medium heat.",
                 "Add chopped onion and saut until translucent.",
                 "Add chicken or beef pieces and brown on all sides.",
@@ -643,7 +643,7 @@
                 "Salt, to taste"
             ],
             "description": "A popular Nigerian dish consisting of pounded yam served with a rich soup made from ground melon seeds and assorted meats.",
-            "instruction": [
+            "steps": [
                 "Peel and cut yam into chunks. Boil in water until soft.",
                 "Drain the yam and transfer to a mortar. Pound with a pestle until smooth and stretchy. Alternatively, use a yam pounder.",
                 "In a separate pot, cook the assorted meats with chopped onion, tomatoes, and scotch bonnet peppers until tender.",
@@ -670,7 +670,7 @@
                 "Skewers, soaked in water if wooden"
             ],
             "description": "A popular Nigerian street food consisting of skewered and grilled meat seasoned with a spicy peanut-based spice mix.",
-            "instruction": [
+            "steps": [
                 "Cut the beef or chicken into thin strips.",
                 "Thread the meat onto skewers, leaving a little space between each piece.",
                 "Brush the meat with peanut oil and sprinkle generously with suya spice mix, pressing the spices into the meat.",
@@ -701,7 +701,7 @@
                 "Boiled starch or fufu for serving"
             ],
             "description": "A rich and flavorful Nigerian soup made from palm fruit concentrate, typically served with a starchy side.",
-            "instruction": [
+            "steps": [
                 "In a large pot, combine palm fruit concentrate with water and bring to a boil over medium heat.",
                 "Add chopped onions, minced garlic, grated ginger, and ground crayfish. Simmer for 10 minutes.",
                 "Add catfish or tilapia fillets to the pot and cook until fish is tender, about 15-20 minutes.",
