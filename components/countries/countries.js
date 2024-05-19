@@ -4,6 +4,9 @@ async function render_countries (images){
             const countryName = image.querySelector("img").id;
             const countryId =  image.querySelector("img").getAttribute("country_id");
 
+            document.querySelector("#wrapper").setAttribute("country_id", countryId);
+            document.querySelector("#wrapper").setAttribute("country_name", countryName);
+            
             document.querySelector("#wrapper").innerHTML = "";
             
             render_nav(wrapper);
