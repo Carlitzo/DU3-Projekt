@@ -69,4 +69,34 @@ function render_create_acc(parent) {
         render_login(document.querySelector("#wrapper"));
     });
 
+    document.querySelector("#create_acc").addEventListener("click", async () => {
+        const username = document.querySelector("#new_username").value;
+        const password = document.querySelector("#new_password").value;
+        await register_user(username, password);
+    });
+
+}
+
+async function register_user(username, password) {
+    try {
+        const response = await fetch("../../api/login.php", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ name: username, password: password })
+        });
+
+        if (response.ok) {
+
+            alert('Registration successful! Please log in.');
+            render_login(document.querySelector("#wrapper"));
+        } else {
+            const errorData = await response.json();
+            alert(`Registration failed: ${errorData.message}`);
+        }
+    } catch (error) {
+        console.error('Error during registration:', error);
+        alert('An error occurred. Please try again later.');
+    }
 }
