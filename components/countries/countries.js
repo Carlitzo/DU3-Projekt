@@ -44,7 +44,7 @@ async function render_countries (images){
                      `  <p class = 'recipe_name'>${recipe.name}</p>
 
                         <div class='info_side'>
-                            <div class='around_img' name='${recipe.name}'>
+                            <div class='around_img' name='${recipe.name}' recipe_id='${recipe.recipe_id}'>
                                 <div class='background_img' style='background-image: url(${recipe.image})'></div>
                             </div>
                                 

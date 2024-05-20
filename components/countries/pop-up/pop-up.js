@@ -4,8 +4,9 @@ async function goBack(country_name, country_id) {
     let countryName = country_name;
     let countryId = country_id;
 
-    document.querySelector("#wrapper").style.display = "grid";
-    document.querySelector("#wrapper").innerHTML = "";
+    wrapper.style.display = "grid";
+    wrapper.style.bottom = "0px";
+    wrapper.innerHTML = "";
 
     render_nav(wrapper);
     render_footer(wrapper);
