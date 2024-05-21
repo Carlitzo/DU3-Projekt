@@ -43,4 +43,41 @@ if ($requestMethod == "POST") // Register a new user
 if ($requestMethod == "GET") {
     send(200, $json["USERS"]);
 }
+if ($requestMethod == "PATCH") {
+    if (!isset($requestData["id"]) || !isset($requestData["recipe_id"])) {
+        $message = ["error" => "Bad Request"];
+        send(400, $message);
+    }
+
+    $id = $requestData["id"];
+    $recipe_id = $requestData["recipe_id"];
+    $userFound = false;
+
+    foreach($users as $index => $user){
+        if ($user["id"] == $id) {
+
+            $userFound = true;
+            
+            $liked_recipes = $users[$index]["liked_recipes"];
+            $recipeIndex = array_search($recipe_id, $liked_recipes);
+            if ($recipeIndex !== false) {
+
+                array_splice($users[$index]["liked_recipes"], $recipeIndex, 1);
+            } else {
+                
+                $users[$index]["liked_recipes"][] = $recipe_id;
+            }
+
+            $data["USERS"] = $users;
+            $json = json_encode($data, JSON_PRETTY_PRINT);
+            file_put_contents($filename, $json);
+            send(200, $users[$index]);
+        }
+    }
+
+    if (!$userFound) {
+        $error = ["error" => "Not Found"];
+        send(404, $error); 
+    }
+}
 ?>

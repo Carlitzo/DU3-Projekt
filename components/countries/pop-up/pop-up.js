@@ -63,7 +63,20 @@ async function goBack(country_name, country_id) {
 
 async function render_popup(recipes_images){
     recipes_images.forEach(recipe_image =>{
-         recipe_image.addEventListener("click", async() =>{
+         recipe_image.addEventListener("click", async(event) =>{
+            
+            const all_users_resp = await fetch("../../api/users.php");
+            const all_users_rsrc = await all_users_resp.json();
+            
+            let bookmarked_class = "regular";
+            const current_user_likes = all_users_rsrc.find(user => user.id == localStorage.getItem("id")).liked_recipes;
+            console.log(current_user_likes);
+            const clicked_recipe_id = event.target.getAttribute("recipe_id");
+
+            if (current_user_likes.includes(parseInt(clicked_recipe_id))) {
+                let bookmarked_class = "solid";
+            }
+            
 
             const recipe_name_popup =  recipe_image.getAttribute("name");
 
@@ -110,6 +123,24 @@ async function render_popup(recipes_images){
             const selected_country_name = document.querySelector("#wrapper").getAttribute("country_name");
             const selected_country_id = document.querySelector("#wrapper").getAttribute("country_id");
             cancel_icon.addEventListener("click", () => goBack(selected_country_name, selected_country_id));
+
+            const save_icon = wrapper.querySelector(".save_icon");
+            let isSaved = false;
+
+            save_icon.addEventListener("click", () =>{
+
+                State.patch(recipe_content_popup.name)
+                if(!isSaved) {
+
+                    save_icon.innerHTML = "<i class='fa-solid fa-bookmark'></i>";
+                    isSaved = true;
+                } else {
+                    save_icon.innerHTML = "<i class='fa-regular fa-bookmark'></i>";
+                    isSaved = false;
+                }
+
+                
+            });
 
             let ingredient_ul = document.createElement("ul");
             ingredient_ul.classList.add("ingredients_list")
