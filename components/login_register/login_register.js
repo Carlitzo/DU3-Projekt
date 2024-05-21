@@ -122,7 +122,7 @@ async function login_user(username, password) {
             window.location.href = './components/homepage/homepage.html';
         } else {
             const errorData = await response.json();
-            alert(`Login failed: ${errorData.message}`);
+            alert(`Login failed: ${errorData.error}`);
         }
     } catch (error) {
         console.error('Error during login:', error);
