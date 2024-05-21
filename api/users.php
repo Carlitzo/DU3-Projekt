@@ -38,4 +38,5 @@ if ($requestMethod == "POST") // Register a new user
     unset($newUser["password"]);
     send(201, $newUser);
 }
+
 ?>
