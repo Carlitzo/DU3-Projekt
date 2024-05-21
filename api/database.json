@@ -73,8 +73,8 @@
                 " Before serving, sprinkle a thin layer of sugar over the top of each custard. Use a culinary torch to caramelize the sugar until it forms a crispy crust.",
                 " Let the caramelized sugar cool and harden for a minute before serving, optionally top with some orange zes. Enjoy your delicious Crema Catalana!"
             ],
-            "image": "media\/spanish_dishes\/Crema_Catalana.jpg",
-            "preparation_time": "45 minutes"
+            "image": "../../media\/spanish_dishes\/Crema_Catalana.jpg",
+            "preparation_time": "45 minutes" 
         },
         {
             "recipe_id": 2,
@@ -107,7 +107,7 @@
                 " Taste the sauce and adjust seasoning with salt and pepper if necessary.",
                 " Serve the Albndigas hot, garnished with chopped fresh cilantro or parsley. Enjoy!"
             ],
-            "image": "media\/spanish_dishes\/Alb\u00f3ndigas.jpg",
+            "image": "../../media\/spanish_dishes\/Albóndigas.jpg",
             "preparation_time": "40 minutes"
         },
         {
@@ -142,7 +142,7 @@
                 " Once the potatoes are done, transfer them to a serving platter. Drizzle the Brava Sauce over the top, or serve it on the side for dipping.",
                 " Garnish the Patatas Bravas with chopped fresh parsley or cilantro. Serve hot, optionally with mayonnaise or aioli on the side for extra creaminess. Enjoy!"
             ],
-            "image": "media\/spanish_dishes\/Patatas_Bravas.jpg",
+            "image": "../../media\/spanish_dishes\/Patatas_Bravas.jpg",
             "preparation_time": "45 minutes"
         },
         {
@@ -171,7 +171,7 @@
                 " Before serving, give the gazpacho a good stir. Serve it cold in bowls or glasses, garnished with diced cucumber, bell pepper, red onion, croutons, fresh herbs, and a drizzle of olive oil if desired.",
                 " Enjoy this refreshing Gazpacho as a starter or light meal on a hot summer day!"
             ],
-            "image": "media\/spanish_dishes\/Gazpacho.jpg",
+            "image": "../../media\/spanish_dishes\/Gazpacho.jpg",
             "preparation_time": "20 minutes"
         },
         {
@@ -209,7 +209,7 @@
                 " Once done, remove the paella from the heat and let it rest for a few minutes. Garnish with fresh parsley and serve hot with lemon wedges on the side.",
                 " Enjoy this flavorful Paella with Prawns, Small Octopus, and Mussels, a true taste of Spain!"
             ],
-            "image": "media\/spanish_dishes\/Paella.jpg",
+            "image": "../../media\/spanish_dishes\/Paella.jpg",
             "preparation_time": "45 minutes"
         },
         {
@@ -241,7 +241,7 @@
                 "Season everything with salt and pepper to taste.",
                 "Serve immediately with the toasted bread on the side. Enjoy your hearty Full English Breakfast!"
             ],
-            "image": "media\/british_dishes\/english_breakfast.jpg",
+            "image": "../../media\/british_dishes\/english_breakfast.jpg",
             "preparation_time": "30 minutes"
         },
         {
@@ -278,7 +278,7 @@
                 "Bake in the preheated oven for 20-25 minutes, or until the mashed potatoes are golden brown and the filling is bubbling around the edges.",
                 "Remove from the oven and let it cool for a few minutes before serving. Enjoy your homemade Shepherd's Pie!"
             ],
-            "image": "media\/british_dishes\/Shepherds_Pie.jpg",
+            "image": "../../media\/british_dishes\/Shepherds_Pie.jpg",
             "preparation_time": "1 hour"
         },
         {
@@ -305,7 +305,7 @@
                 "In batches, fry the potato chips in the hot oil for about 3-4 minutes, or until golden brown and crispy. Remove from the oil and drain on paper towels. Keep warm in the preheated oven while you fry the remaining chips.",
                 "Once all the fish and chips are cooked, serve immediately with your choice of accompaniments, such as tartar sauce, malt vinegar, or mushy peas. Enjoy your homemade fish and chips!"
             ],
-            "image": "media\/british_dishes\/fish_chips.jpg",
+            "image": "../../media\/british_dishes\/fish_chips.jpg",
             "preparation_time": "45 minutes"
         },
         {
@@ -329,7 +329,7 @@
                 "Place the tin or dish back into the oven and bake for 20-25 minutes, or until the Yorkshire puddings are puffed up, golden brown, and crispy on the edges.",
                 "Remove from the oven and serve immediately while hot and puffy. Yorkshire puddings are best served with roast beef and gravy, but they also make a delicious accompaniment to other roast meats or as part of a traditional Sunday roast."
             ],
-            "image": "media\/british_dishes\/yourkshire_pudding.jpg",
+            "image": "../../media\/british_dishes\/yourkshire_pudding.jpg",
             "preparation_time": "45 minutes"
         },
         {
@@ -357,7 +357,7 @@
                 "Cover and refrigerate for at least 4 hours, or overnight.",
                 "Dust the top with cocoa powder before serving."
             ],
-            "image": "media\/italian_dishes\/Tiramisu.jpg",
+            "image": "../../media\/italian_dishes\/Tiramisu.jpg",
             "preparation_time": "40 minutes"
         },
         {
@@ -383,7 +383,7 @@
                 "Bake for 10-12 minutes, or until the crust is golden and the cheese is bubbly and slightly browned.",
                 "Remove from oven, let it cool for a minute, then slice and serve hot."
             ],
-            "image": "media\/italian_dishes\/margherita_pizza.jpg",
+            "image": "../../media\/italian_dishes\/margherita_pizza.jpg",
             "preparation_time": "30 minutes"
         },
         {
@@ -408,7 +408,7 @@
                 "Remove pan from heat and quickly pour in the egg and cheese mixture, stirring vigorously to coat the spaghetti.",
                 "Season with salt and additional black pepper if needed. Serve immediately."
             ],
-            "image": "media\/italian_dishes\/spaghetti_carbonara.jpg",
+            "image": "../../media\/italian_dishes\/spaghetti_carbonara.jpg",
             "preparation_time": "20 minutes"
         },
         {
@@ -435,7 +435,7 @@
                 "Season with salt and black pepper to taste, and sprinkle the remaining parsley over the top.",
                 "Serve the spaghetti vongole immediately, garnished with extra parsley if desired."
             ],
-            "image": "media\/italian_dishes\/spaghetti_carbonara.jpg",
+            "image": "../../media\/italian_dishes\/spaghetti_carbonara.jpg",
             "preparation_time": "30 minutes"
         },
         {
@@ -475,7 +475,7 @@
                 "Garnish with chopped fresh cilantro before serving.",
                 "Chickpea Tikka Masala pairs well with steamed rice, naan bread, or roti."
             ],
-            "image": "media\/indian_dishes\/chickpea_tikka_masala.jpg",
+            "image": "../../media\/indian_dishes\/chickpea_tikka_masala.jpg",
             "preparation_time": "40 minutes"
         },
         {
@@ -504,7 +504,7 @@
                 "Garnish with more chopped nuts and raisins if desired.",
                 "Serve warm or cold, as desired. Carrot Halwa can be enjoyed on its own or with a scoop of vanilla ice cream."
             ],
-            "image": "media\/indian_dishes\/carrothalwa.jpg",
+            "image": "../../media\/indian_dishes\/carrothalwa.jpg",
             "preparation_time": "1 hour"
         },
         {
@@ -543,7 +543,7 @@
                 "Return the blended mixture to the skillet and place it back on the heat.",
                 "Add cubed paneer and garam masala to the skillet. Stir well to combine."
             ],
-            "image": "media\/indian_dishes\/saag_paneer.jpg",
+            "image": "../../media\/indian_dishes\/saag_paneer.jpg",
             "preparation_time": "1 hour"
         },
         {
@@ -575,7 +575,7 @@
                 "Cover and refrigerate Shahi Tukray for at least 2 hours, or until chilled and set.",
                 "Serve cold and enjoy the royal treat!"
             ],
-            "image": "media\/indian_dishes\/shahi_tukray.jpg",
+            "image": "../../media\/indian_dishes\/shahi_tukray.jpg",
             "preparation_time": "30 minutes"
         },
         {
@@ -611,7 +611,7 @@
                 "Fluff the rice with a fork and serve hot.",
                 "Jollof rice is often served with fried plantains, grilled chicken, or fried fish."
             ],
-            "image": "media\/nigerian_dishes\/jollof_rice.jpg",
+            "image": "../../media\/nigerian_dishes\/jollof_rice.jpg",
             "preparation_time": "45 minutes"
         },
         {
@@ -644,7 +644,7 @@
                 "Serve the pounded yam with the egusi soup.",
                 "Pounded yam and egusi soup are often enjoyed with assorted meats and fish."
             ],
-            "image": "media\/nigerian_dishes\/Pounded_Yam_and_Egusi_Soup.jpg",
+            "image": "../../media\/nigerian_dishes\/Pounded_Yam_and_Egusi_Soup.jpg",
             "preparation_time": "1 hour 30 minutes"
         },
         {
@@ -668,7 +668,7 @@
                 "Serve hot, garnished with thinly sliced onions and extra suya spice mix if desired.",
                 "Suya is often served with sliced tomatoes, onions, and spicy pepper sauce."
             ],
-            "image": "media\/nigerian_dishes\/suya.jpg",
+            "image": "../../media\/nigerian_dishes\/suya.jpg",
             "preparation_time": "30 minutes"
         },
         {
@@ -699,7 +699,7 @@
                 "Once the soup is well combined and flavored, remove from heat.",
                 "Serve the banga soup hot in bowls alongside boiled starch or fufu."
             ],
-            "image": "media\/nigerian_dishes\/suya.jpg",
+            "image": "../../media\/nigerian_dishes\/suya.jpg",
             "preparation_time": "1 hour"
         }
     ]
