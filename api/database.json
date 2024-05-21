@@ -1,21 +1,10 @@
 {
     "USERS": [
         {
-            "user_id": 1,
-            "name": "Adrian",
-            "password": "safe123",
-            "liked_recipes": []
-        },
-        {
-            "user_id": 2,
-            "name": "Nicolina",
-            "password": "unsafe321",
-            "liked_recipes": []
-        },
-        {
-            "name": "Adriano",
-            "password": "Hoppla",
-            "id": 1
+            "name": "Adamski",
+            "password": "hola",
+            "liked_recipes": [],
+            "id": 2
         }
     ],
     "COUNTRIES": [
@@ -23,40 +12,40 @@
             "country_name": "Spain",
             "id": 1,
             "ISO_code": "ES",
-            "flag": "../../media\/flags\/spain_flag.png",
-            "country_image":"../../media\/country_images\/Spain.jpg",
+            "flag": "..\/..\/media\/flags\/spain_flag.png",
+            "country_image": "..\/..\/media\/country_images\/Spain.jpg",
             "introductory_text": "Spanish cuisine delights with its vibrant flavors, diverse ingredients, and cultural influences, reflecting the country's rich history and culinary creativity."
         },
         {
             "country_name": "England",
             "id": 2,
             "ISO_code": "GB",
-            "flag": "../../media\/flags\/britain_flag.png",
-            "country_image":"../../media\/country_images\/England.jpg",
+            "flag": "..\/..\/media\/flags\/britain_flag.png",
+            "country_image": "..\/..\/media\/country_images\/England.jpg",
             "introductory_text": "English cuisine features hearty dishes, traditional roasts, and comforting desserts, blending classic recipes with modern influences for a flavorful culinary experience that reflects the country's diverse history and culinary evolution."
         },
         {
             "country_name": "Italy",
             "id": 3,
             "ISO_code": "IT",
-            "flag": "../../media\/flags\/italy_flag.png",
-            "country_image":"../../media\/country_images\/Italy.jpg",
+            "flag": "..\/..\/media\/flags\/italy_flag.png",
+            "country_image": "..\/..\/media\/country_images\/Italy.jpg",
             "introductory_text": "Italian cuisine is renowned for its rich flavors, fresh ingredients, and intricate culinary techniques, embodying centuries of gastronomic tradition and innovation."
         },
         {
             "country_name": "India",
             "id": 4,
             "ISO_code": "IN",
-            "flag": "../../media\/flags\/india_flag.png",
-            "country_image":"../../media\/country_images\/India.jpg",
+            "flag": "..\/..\/media\/flags\/india_flag.png",
+            "country_image": "..\/..\/media\/country_images\/India.jpg",
             "introductory_text": "Indian cuisine entices with its aromatic spices, diverse flavors, and rich culinary traditions, offering a vibrant tapestry of dishes reflecting the country's cultural diversity and culinary heritage.."
         },
         {
             "country_name": "Nigeria",
             "id": 5,
             "ISO_code": "NG",
-            "flag": "../../media\/flags\/nigeria_flag.png",
-            "country_image":"../../media\/country_images\/Nigeria.jpg",
+            "flag": "..\/..\/media\/flags\/nigeria_flag.png",
+            "country_image": "..\/..\/media\/country_images\/Nigeria.jpg",
             "introductory_text": "Nigerian cuisine captivates with its bold flavors, spicy dishes, and diverse ingredients, showcasing a rich culinary tapestry influenced by regional traditions and cultural heritage, reflecting the country's vibrant culinary landscape."
         }
     ],
@@ -85,27 +74,27 @@
                 " Let the caramelized sugar cool and harden for a minute before serving, optionally top with some orange zes. Enjoy your delicious Crema Catalana!"
             ],
             "image": "media\/spanish_dishes\/Crema_Catalana.jpg",
-            "preparation_time": "45 minutes" 
+            "preparation_time": "45 minutes"
         },
         {
             "recipe_id": 2,
             "country_id": 1,
-            "name": "Albóndigas",
+            "name": "Alb\u00f3ndigas",
             "ingredients": [
                 "500g ground beef",
-                "1/2 cup breadcrumbs",
-                "1/4 cup milk",
+                "1\/2 cup breadcrumbs",
+                "1\/4 cup milk",
                 "1 small onion, finely chopped",
                 "2 cloves garlic, minced",
                 "1 egg",
                 "1 teaspoon dried oregano",
                 "1 teaspoon ground cumin",
-                "1/2 teaspoon paprika",
+                "1\/2 teaspoon paprika",
                 "Salt and pepper to taste",
                 "2 tablespoons olive oil",
                 "1 can (400g) crushed tomatoes",
                 "1 cup beef broth",
-                "1/2 cup chopped fresh cilantro or parsley, for garnish"
+                "1\/2 cup chopped fresh cilantro or parsley, for garnish"
             ],
             "description": "Albndigas are Spanish meatballs cooked in a flavorful tomato sauce, perfect as a tapas dish or served over rice or with crusty bread.",
             "steps": [
@@ -118,7 +107,7 @@
                 " Taste the sauce and adjust seasoning with salt and pepper if necessary.",
                 " Serve the Albndigas hot, garnished with chopped fresh cilantro or parsley. Enjoy!"
             ],
-            "image": "media\/spanish_dishes\/Albóndigas.jpg",
+            "image": "media\/spanish_dishes\/Alb\u00f3ndigas.jpg",
             "preparation_time": "40 minutes"
         },
         {
@@ -134,7 +123,7 @@
                 "1 onion, finely chopped",
                 "2 cloves garlic, minced",
                 "1 teaspoon smoked paprika",
-                "1/2 teaspoon hot paprika or cayenne pepper (adjust to taste)",
+                "1\/2 teaspoon hot paprika or cayenne pepper (adjust to taste)",
                 "1 can (400g) diced tomatoes",
                 "1 tablespoon white wine vinegar",
                 "Salt and pepper to taste",
@@ -496,10 +485,10 @@
             "ingredients": [
                 "4 cups grated carrots",
                 "4 cups whole milk",
-                "1/2 cup sugar (adjust to taste)",
-                "1/4 cup ghee (clarified butter)",
-                "1/4 cup chopped nuts (such as almonds, cashews, or pistachios)",
-                "1/4 teaspoon cardamom powder",
+                "1\/2 cup sugar (adjust to taste)",
+                "1\/4 cup ghee (clarified butter)",
+                "1\/4 cup chopped nuts (such as almonds, cashews, or pistachios)",
+                "1\/4 teaspoon cardamom powder",
                 "A pinch of saffron strands (optional)",
                 "Raisins, for garnish (optional)"
             ],
@@ -532,10 +521,10 @@
                 "2 green chilies, chopped (adjust to taste)",
                 "1 teaspoon cumin seeds",
                 "1 teaspoon garam masala",
-                "1/2 teaspoon turmeric powder",
-                "1/2 teaspoon ground coriander",
-                "1/2 teaspoon ground cumin",
-                "1/4 teaspoon cayenne pepper",
+                "1\/2 teaspoon turmeric powder",
+                "1\/2 teaspoon ground coriander",
+                "1\/2 teaspoon ground cumin",
+                "1\/4 teaspoon cayenne pepper",
                 "2 tablespoons vegetable oil",
                 "2 tablespoons cream or yogurt",
                 "Salt, to taste"

@@ -20,7 +20,7 @@ if ($requestMethod == "POST") // Register a new user
         abort(400, "Bad Request (empty request)");
     }
 
-    $userKeys = ["name", "password"];
+    $userKeys = ["name", "password", "liked_recipes"];
 
     if (requestContainsAllKeys($requestData, $userKeys) == false) {
         abort(400, "Bad Request (missing keys)");
@@ -28,6 +28,7 @@ if ($requestMethod == "POST") // Register a new user
 
     $name = $requestData["name"];
     $user = findItemByKey("USERS", "name", $name);
+
     
     if ($user != false) {
         abort(400, "Bad Request (user already exists)");
