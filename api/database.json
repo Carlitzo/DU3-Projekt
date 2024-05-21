@@ -11,11 +11,6 @@
             "name": "Nicolina",
             "password": "unsafe321",
             "liked_recipes": []
-        },
-        {
-            "name": "Adriano",
-            "password": "Hoppla",
-            "id": 1
         }
     ],
     "COUNTRIES": [
