@@ -4,7 +4,7 @@ function render_header(parent) {
 
     header_container.innerHTML = `
     <div id="name_slogan">
-        <p id="name" class="heading">Luxe Bites</p>
+        <p id="title" class="heading">Luxe Bites</p>
         <p id="slogan" class="heading">Discover food from around the globe</p>
         <h1 id="current_country"></h1> 
         <div class= 'user_icon'>
