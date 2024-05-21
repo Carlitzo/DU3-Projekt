@@ -24,7 +24,7 @@ function render_profile_page() {
     <div id="right"></div>`
 
     let database = fetch("../../api/recipes.php").then(r => r.json());
-    let user_id = localStorage.user.id;
+    let user_id = localStorage.id;
     let liked_recipes = [];
     for (let i = 0; i < database.USERS.length; i++) {
         if (user_id === database.USERS[i].id) {

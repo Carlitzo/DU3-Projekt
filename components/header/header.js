@@ -20,4 +20,8 @@ function render_header(parent) {
         render_footer(wrapper);
         carousel();
     })
+
+    document.querySelector(".user_icon").addEventListener("click", function () {
+        render_profile_page();
+    })
 }
