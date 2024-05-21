@@ -7,7 +7,7 @@ function render_login(parent) {
 
     container.innerHTML = `
     <div id="outer_box">
-        <div id="name">
+        <div id="title">
             <p>Luxe Bites</p>
             <p>Discover food from around the globe</p>
         </div>
@@ -51,7 +51,7 @@ function render_create_acc(parent) {
 
     new_container.innerHTML = `
     <div id="outer_box">
-        <div id="name">
+        <div id="title">
             <p>Luxe Bites</p>
             <p>Discover food from around the globe</p>
         </div>
@@ -107,7 +107,7 @@ async function register_user(username, password) {
     }
 }
 
-async function loginUser(username, password) {
+async function login_user(username, password) {
     try {
         const response = await fetch("../../api/login.php", {
             method: "POST",

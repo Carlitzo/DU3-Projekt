@@ -33,20 +33,20 @@
 
 }
 
-#name {
+#title {
     grid-column: 2/3;
     grid-row: 1/2;
     color: #FFF;
     font-family: Montserrat;
 }
 
-#name>p:first-child {
+#title>p:first-child {
     font-size: 40px;
     margin-bottom: 0px;
     margin-top: 20px;
 }
 
-#name>p:last-child {
+#title>p:last-child {
     margin-top: 0;
     margin-left: 90px;
 }
