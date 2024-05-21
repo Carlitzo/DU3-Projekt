@@ -191,7 +191,7 @@ function deleteItemByType($type, $itemToDelete)
 function getUserFromToken($requestToken)
 {
     $database = getDatabase();
-    $type = "users";
+    $type = "USERS";
     
     if (isset($database[$type]) == false) {
         abort(500, "Internal Server Error (database type '$type' does not exist)");
