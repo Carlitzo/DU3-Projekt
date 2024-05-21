@@ -1,0 +1,12 @@
+#carousel_wrapper {
+    height: 725px;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.carousel_img {
+    height: 100%;
+    width: 100%;
+}
+
