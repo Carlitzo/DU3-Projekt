@@ -1,5 +1,5 @@
 async function render_nav(parent) {
-    let resource = await fetch("../api/database.json");
+    let resource = await fetch("../../api/database.json");
     const database = await resource.json();
     const nav_wrapper = document.createElement("div");
 
