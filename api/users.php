@@ -13,6 +13,8 @@ if ($_SERVER["REQUEST_METHOD"] == "OPTIONS") {
 
 $requestMethod = $_SERVER["REQUEST_METHOD"];
 $requestData = getRequestData();
+$filename = file_get_contents("./database.json");
+$json = json_decode($filename, true);
 
 if ($requestMethod == "POST") // Register a new user
 {
@@ -38,5 +40,7 @@ if ($requestMethod == "POST") // Register a new user
     unset($newUser["password"]);
     send(201, $newUser);
 }
-
+if ($requestMethod == "GET") {
+    send(200, $json["USERS"]);
+}
 ?>

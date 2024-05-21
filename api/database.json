@@ -9,7 +9,7 @@
         {
             "name": "adriano",
             "password": "hejsan",
-            "liked_recipes": [],
+            "liked_recipes": [1,6,7,2],
             "id": 3
         }
     ],

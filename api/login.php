@@ -47,5 +47,4 @@ else
 {
     abort(405, "Method Not Allowed");
 }
-
 ?>
