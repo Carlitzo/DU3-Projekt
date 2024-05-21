@@ -9,6 +9,8 @@ const State = {
         _state.COUNTRIES = await fetch("./api/countries.php").then(response => response.json());
         _state.RECIPES = await fetch("./api/recipes.php").then(response => response.json());
         _state.USERS = await fetch("./api/users.php").then(response => response.json());
+
+        console.log(State.USERS);
     },
     get: async (entity) => {
         return JSON.parse(JSON.stringify(_state[entity]));

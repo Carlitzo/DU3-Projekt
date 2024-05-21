@@ -74,6 +74,7 @@ async function render_popup(recipes_images){
             
             let bookmarked_class = "regular";
             const current_user_likes = all_users_rsrc.find(user => user.id == localStorage.getItem("id")).liked_recipes;
+            console.log(current_user_likes);
             const clicked_recipe_id = event.target.getAttribute("recipe_id");
 
             if (current_user_likes.includes(parseInt(clicked_recipe_id))) {
@@ -131,7 +132,10 @@ async function render_popup(recipes_images){
             let isSaved = false;
 
             save_icon.addEventListener("click", () =>{
+
+                State.patch(recipe_content_popup.name)
                 if(!isSaved) {
+
                     save_icon.innerHTML = "<i class='fa-solid fa-bookmark'></i>";
                     isSaved = true;
                 } else {
