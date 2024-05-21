@@ -119,7 +119,7 @@ async function login_user(username, password) {
         if (response.ok) {
             const data = await response.json();
             localStorage.setItem('authToken', data.token);
-            window.location.href = '../homepage/homepage.html';
+            window.location.href = './components/homepage/homepage.html';
         } else {
             const errorData = await response.json();
             alert(`Login failed: ${errorData.message}`);
