@@ -76,8 +76,8 @@ function render_create_acc(parent) {
     });
 
     document.querySelector("#create_acc").addEventListener("click", async () => {
-        const username = document.querySelector("#username").value;
-        const password = document.querySelector("#password").value;
+        const username = document.querySelector("#new_username").value;
+        const password = document.querySelector("#new_password").value;
         await register_user(username, password);
     });
 
@@ -85,12 +85,12 @@ function render_create_acc(parent) {
 
 async function register_user(username, password) {
     try {
-        const response = await fetch("../../api/users.php", {
+        const response = await fetch("../../api/login.php", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({ name: username, password: password, liked_recipes: [] })
+            body: JSON.stringify({ name: username, password: password })
         });
 
         if (response.ok) {
@@ -119,7 +119,6 @@ async function login_user(username, password) {
         if (response.ok) {
             const data = await response.json();
             localStorage.setItem('authToken', data.token);
-            localStorage.setItem('id', data.user.id);
             window.location.href = './components/homepage/homepage.html';
         } else {
             const errorData = await response.json();

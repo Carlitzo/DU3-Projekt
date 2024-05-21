@@ -18,8 +18,9 @@ async function render_countries(images) {
 
 
             try {
-                const response = await fetch("../../api/database.json"); // ändra till php fil och fetch_handler
+                const response = await fetch("../../api/countries.php"); // ändra till php fil och fetch_handler
                 const data = await response.json();
+                console.log(data);
 
                 const countryData = data.COUNTRIES.find(country => country.country_name === countryName);
                 const countryRecipes = data.RECIPES.filter(recipe => recipe.country_id === parseInt(countryId));

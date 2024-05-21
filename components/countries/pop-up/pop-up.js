@@ -1,4 +1,5 @@
 
+fetch("../../api/users.php").then(r => r.json()).then(console.log);
 async function goBack(country_name, country_id) {
 
     let countryName = country_name;
@@ -16,14 +17,16 @@ async function goBack(country_name, country_id) {
     header_1.innerHTML += `<p class='selected_country'>${countryName.toUpperCase()}</p>`
 
     try {
-        const response = await fetch("../api/database.json");
+        const response = await fetch("../../api/countries.php"); // Ska fetcha från PHP filen och inte JSON filen!
         const data = await response.json();
-
+        
         const countryData = data.COUNTRIES.find(country => country.country_name === countryName);
         const countryRecipes = data.RECIPES.filter(recipe => recipe.country_id === parseInt(countryId));
 
         let div_1 = document.createElement("div");
         div_1.classList.add("choosen_country");
+
+        console.log(countryData);
 
 
         div_1.innerHTML = `<img class='country_img' src= ${countryData.country_image}>
@@ -62,8 +65,21 @@ async function goBack(country_name, country_id) {
 }                
 
 async function render_popup(recipes_images){
+    
     recipes_images.forEach(recipe_image =>{
-         recipe_image.addEventListener("click", async() =>{
+         recipe_image.addEventListener("click", async(event) =>{
+            
+            const all_users_resp = await fetch("../../api/users.php");
+            const all_users_rsrc = await all_users_resp.json();
+            
+            let bookmarked_class = "regular";
+            const current_user_likes = all_users_rsrc.find(user => user.id == localStorage.getItem("id")).liked_recipes;
+            const clicked_recipe_id = event.target.getAttribute("recipe_id");
+
+            if (current_user_likes.includes(parseInt(clicked_recipe_id))) {
+                let bookmarked_class = "solid";
+            }
+            
 
             const recipe_name_popup =  recipe_image.getAttribute("name");
 
@@ -74,13 +90,13 @@ async function render_popup(recipes_images){
             wrapper.innerHTML = "";
 
             try{
-                const response = await fetch("../api/database.json");
+                const response = await fetch("../../api/countries.php");
                 const data = await response.json();
                 const recipe_content_popup = data.RECIPES.find(recipe => recipe.name === recipe_name_popup);
 
             wrapper.innerHTML =`
             <div class='icons_options'>
-                <div class='save_icon'><i class="fa-regular fa-bookmark"></i></div>
+                <div class='save_icon'><i class="fa-${bookmarked_class} fa-bookmark"></i></div>
                 <div class='cancel-icon'><i class="fa-solid fa-x"></i></div>
             </div>
 
@@ -110,6 +126,21 @@ async function render_popup(recipes_images){
             const selected_country_name = document.querySelector("#wrapper").getAttribute("country_name");
             const selected_country_id = document.querySelector("#wrapper").getAttribute("country_id");
             cancel_icon.addEventListener("click", () => goBack(selected_country_name, selected_country_id));
+
+            const save_icon = wrapper.querySelector(".save_icon");
+            let isSaved = false;
+
+            save_icon.addEventListener("click", () =>{
+                if(!isSaved) {
+                    save_icon.innerHTML = "<i class='fa-solid fa-bookmark'></i>";
+                    isSaved = true;
+                } else {
+                    save_icon.innerHTML = "<i class='fa-regular fa-bookmark'></i>";
+                    isSaved = false;
+                }
+
+                
+            });
 
             let ingredient_ul = document.createElement("ul");
             ingredient_ul.classList.add("ingredients_list")
