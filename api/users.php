@@ -13,24 +13,37 @@ if ($_SERVER["REQUEST_METHOD"] == "OPTIONS") {
 
 $requestMethod = $_SERVER["REQUEST_METHOD"];
 $requestData = getRequestData();
-$filename = file_get_contents("./database.json");
-$json = json_decode($filename, true);
 
-if ($requestMethod == "POST") // Register a new user
-{
+$filename = "database.json";
+$users = [];
+$data = [];
+
+if(file_exists($filename)){
+    $json = file_get_contents($filename);
+    $data = json_decode($json, true);
+
+    if (isset($data['USERS'])) {
+        $users = $data['USERS'];
+    }
+}
+
+if ($requestMethod == "GET") {
+    send(200, $users);
+}
+
+if ($requestMethod == "POST") { // Register a new user
     if (empty($requestData)) {
         abort(400, "Bad Request (empty request)");
     }
 
-    $userKeys = ["name", "password", "liked_recipes"];
+    $userKeys = ["name", "password"];
 
-    if (requestContainsAllKeys($requestData, $userKeys) == false) {
+    if (!requestContainsAllKeys($requestData, $userKeys)) {
         abort(400, "Bad Request (missing keys)");
     }
 
     $name = $requestData["name"];
     $user = findItemByKey("USERS", "name", $name);
-
     
     if ($user != false) {
         abort(400, "Bad Request (user already exists)");
@@ -40,9 +53,7 @@ if ($requestMethod == "POST") // Register a new user
     unset($newUser["password"]);
     send(201, $newUser);
 }
-if ($requestMethod == "GET") {
-    send(200, $json["USERS"]);
-}
+
 if ($requestMethod == "PATCH") {
     if (!isset($requestData["id"]) || !isset($requestData["recipe_id"])) {
         $message = ["error" => "Bad Request"];

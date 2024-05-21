@@ -51,7 +51,7 @@
 }
 
 .background_img{
-    width: 200px;
+    width: 220px;
     height: 200px;  
     border-radius: 20px;
     background-position: center;
@@ -60,7 +60,7 @@
 
 .around_img{
     width: 220px;
-    height: 220px;
+    height: 200px;
     background-color: #333F49;
     padding: 10px;
     border-radius: 20px;
@@ -97,7 +97,7 @@
     position: relative;
     right: 360px;
     font-size: 59px;
-  bottom: 70px;
+    bottom: 130px;
     font-family: "Montserrat";
 
 }

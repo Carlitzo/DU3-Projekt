@@ -3,13 +3,23 @@
         {
             "name": "Adamski",
             "password": "hola",
-            "liked_recipes": [],
+            "liked_recipes": [
+                8,
+                27,
+                1
+            ],
             "id": 2
         },
         {
             "name": "adriano",
             "password": "hejsan",
-            "liked_recipes": [1,6,7,2],
+            "liked_recipes": [
+                7,
+                27,
+                2,
+                6,
+                1
+            ],
             "id": 3
         }
     ],
