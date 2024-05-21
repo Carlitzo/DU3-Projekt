@@ -7,14 +7,14 @@ function render_login(parent) {
 
     container.innerHTML = `
     <div id="outer_box">
-        <div id="title">
+        <div id="title_wrapper">
             <p>Luxe Bites</p>
             <p>Discover food from around the globe</p>
         </div>
         <div id="inner_box">
             <div id="username_field">
                 <p>Enter your username</p>
-                <input type="text" placeholder="Enter your usrename" id="username">
+                <input type="text" placeholder="Enter your username" id="username">
             </div>
             <div id="password_field">
                 <p>Enter your password</p>
@@ -51,7 +51,7 @@ function render_create_acc(parent) {
 
     new_container.innerHTML = `
     <div id="outer_box">
-        <div id="title">
+        <div id="title_wrapper">
             <p>Luxe Bites</p>
             <p>Discover food from around the globe</p>
         </div>

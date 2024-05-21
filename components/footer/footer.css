@@ -1,9 +1,9 @@
-
+/* 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 footer {
     grid-row: 3/4;
@@ -19,7 +19,7 @@ footer {
 }
 
 
-#footer_container{
+#footer_container {
     width: 100%;
     padding-top: 10px;
 }
@@ -30,19 +30,19 @@ footer {
     opacity: 0.9;
 }
 
-#footer p{
+#footer p {
     display: flex;
     justify-content: center;
     color: white;
 }
 
-#footer_icons{
+#footer_icons {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.fa-bowl-rice{
+.fa-bowl-rice {
     font-size: 60px;
     color: white;
     position: absolute;
@@ -51,7 +51,7 @@ footer {
     padding: 5px;
 }
 
-#footer_icons a{
+#footer_icons a {
     text-decoration: none;
     padding: 10px;
     margin: 10px;
@@ -59,42 +59,42 @@ footer {
     border-radius: 50%;
 }
 
-#footer_icons a:hover{
+#footer_icons a:hover {
     background-color: #152028;
     transition: 0.5s;
 }
 
-#footer_icons a:hover i{
+#footer_icons a:hover i {
     color: whitesmoke;
     transition: 0.5s;
 }
 
-#footer_nav ul{
+#footer_nav ul {
     display: flex;
     justify-content: center;
-    list-style-type: none ;
+    list-style-type: none;
     margin: 10px;
 }
 
-#footer_nav ul li a{
+#footer_nav ul li a {
     color: white;
     margin: 20px;
     text-decoration: none;
     font-size: 1.3rem;
-    opacity: 0.7 ;
+    opacity: 0.7;
     transition: 0.5s;
 }
 
-#footer_nav ul li a:hover{
-opacity: 1;
+#footer_nav ul li a:hover {
+    opacity: 1;
 }
 
-#footerBottom{
+#footerBottom {
     padding: 5px;
     background-color: #0F1A22;
     text-align: center;
 }
 
-#footerBottom p{
+#footerBottom p {
     color: white;
 }
