@@ -40,7 +40,7 @@ function render_login(parent) {
 
 
 const new_wrapper = document.querySelector("#wrapper");
-render_login(new_wrapper);
+// render_login(new_wrapper);
 
 function render_create_acc(parent) {
     document.querySelector("#wrapper").innerHTML = "";
