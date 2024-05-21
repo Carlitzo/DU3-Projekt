@@ -39,8 +39,8 @@ function render_login(parent) {
 }
 
 
-const wrapper = document.querySelector("#wrapper");
-render_login(wrapper);
+const new_wrapper = document.querySelector("#wrapper");
+render_login(new_wrapper);
 
 function render_create_acc(parent) {
     document.querySelector("#wrapper").innerHTML = "";
@@ -129,5 +129,3 @@ async function login_user(username, password) {
         alert('An error occurred. Please try again later.');
     }
 }
-
-
