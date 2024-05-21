@@ -87,7 +87,7 @@ async function render_popup(recipes_images){
             wrapper.innerHTML = "";
 
             try{
-                const response = await fetch("../api/database.json");
+                const response = await fetch("../../api/database.json");
                 const data = await response.json();
                 const recipe_content_popup = data.RECIPES.find(recipe => recipe.name === recipe_name_popup);
 
