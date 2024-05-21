@@ -39,8 +39,8 @@ function render_login(parent) {
 }
 
 
-const wrapper = document.querySelector("#wrapper");
-render_login(wrapper);
+const new_wrapper = document.querySelector("#wrapper");
+render_login(new_wrapper);
 
 function render_create_acc(parent) {
     document.querySelector("#wrapper").innerHTML = "";
@@ -107,7 +107,7 @@ async function register_user(username, password) {
     }
 }
 
-async function loginUser(username, password) {
+async function login_user(username, password) {
     try {
         const response = await fetch("../../api/login.php", {
             method: "POST",
@@ -129,5 +129,3 @@ async function loginUser(username, password) {
         alert('An error occurred. Please try again later.');
     }
 }
-
-
