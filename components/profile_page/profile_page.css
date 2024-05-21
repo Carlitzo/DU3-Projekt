@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../../font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+#profile_wrapper {
+    background-color: #152028;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: auto;
+}
+
+#liked_wrapper {
+    grid-column: 1/2;
+
+}
+
+#list_wrapper {
+    grid-column: 2/3;
+}
+
+#liked_wrapper>p,
+#list_wrapper>p {
+    font-family: "Montserrat";
+    color: whitesmoke;
+    font-size: 35px;
+    margin-left: 20px;
+    border-bottom: 2px, solid, #B7A287;
+    
+}
