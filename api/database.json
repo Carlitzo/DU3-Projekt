@@ -1,16 +1,21 @@
 {
     "USERS": [
         {
-            "name": "Adamski",
-            "password": "hola",
-            "liked_recipes": [],
-            "id": 2
+            "id": 1,
+            "name": "Adrian",
+            "password": "safe123",
+            "liked_recipes": []
         },
         {
-            "name": "adriano",
-            "password": "hejsan",
-            "liked_recipes": [],
-            "id": 3
+            "id": 2,
+            "name": "Nicolina",
+            "password": "unsafe321",
+            "liked_recipes": []
+        },
+        {
+            "name": "Adriano",
+            "password": "Hoppla",
+            "id": 1
         }
     ],
     "COUNTRIES": [

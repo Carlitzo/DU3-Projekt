@@ -13,11 +13,4 @@ function render_header(parent) {
     </div>`;
 
     parent.appendChild(header_container);
-
-    document.querySelector("#name_slogan").addEventListener("click", function () {
-        render_header(wrapper);
-        render_nav(wrapper);
-        render_footer(wrapper);
-        carousel();
-    })
 }
