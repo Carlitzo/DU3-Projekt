@@ -7,3 +7,4 @@
 // render_nav(wrapper);
 // render_footer(wrapper);
 // carousel();
+render_profile_page()
