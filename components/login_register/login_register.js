@@ -29,7 +29,13 @@ function render_login(parent) {
 
     document.querySelector("#log_in_here").addEventListener("click", () => {
         render_create_acc(document.querySelector("#wrapper"));
-    })
+    });
+
+    document.querySelector("#create_acc").addEventListener("click", async () => {
+        const username = document.querySelector("#username").value;
+        const password = document.querySelector("#password").value;
+        await login_user(username, password);
+    });
 }
 
 
@@ -100,3 +106,28 @@ async function register_user(username, password) {
         alert('An error occurred. Please try again later.');
     }
 }
+
+async function loginUser(username, password) {
+    try {
+        const response = await fetch("../../api/login.php", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ name: username, password: password })
+        });
+        if (response.ok) {
+            const data = await response.json();
+            localStorage.setItem('authToken', data.token);
+            window.location.href = '../homepage/homepage.html';
+        } else {
+            const errorData = await response.json();
+            alert(`Login failed: ${errorData.message}`);
+        }
+    } catch (error) {
+        console.error('Error during login:', error);
+        alert('An error occurred. Please try again later.');
+    }
+}
+
+
