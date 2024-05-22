@@ -40,7 +40,7 @@ async function render_liked(parent) {
                 if (recipes[s].recipe_id == recipe_id_image) {
                     let ingredients = recipes[s].ingredients;
                     ingredients.forEach(ingredient => {
-                        right_container.innerHTML += `<div><input type ='checkbox'><p>${ingredient}</p></div>`;
+                        right_container.innerHTML += `<div class="ing_list"><p>•</p><p>${ingredient}</p></div>`;
                     });
                 }
             }
