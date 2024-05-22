@@ -96,9 +96,9 @@
     display: flex;
     justify-content: end;
     position: relative;
-    right: 425px;
+    left: 900px;
     font-size: 59px;
-    bottom: 930px;
     font-family: "Montserrat";
-
+    width: 200px;
+    bottom: 910px;
 }
