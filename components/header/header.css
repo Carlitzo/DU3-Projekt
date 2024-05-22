@@ -28,6 +28,7 @@
     margin-top: 0;
     margin-bottom: 15px;
     margin-left: 50px;
+    cursor: pointer;
 }
 
 #slogan {
@@ -40,7 +41,7 @@
     margin-left: 150px;
 }
 
-.user_icon{
+.user_icon {
     background-color: white;
     position: absolute;
     right: 20px;
@@ -64,7 +65,8 @@
     cursor: pointer;
 }
 
-#name_slogan .user_icon:hover i{
+#name_slogan .user_icon:hover i {
     color: whitesmoke;
     transition: 0.5s;
 }
+
