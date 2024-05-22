@@ -32,7 +32,7 @@
 }
 
 #logout {
-    width: 65px;
+    width: 70px;
     height: 30px;
     background-color: white;
     position: relative;
@@ -42,4 +42,8 @@
     left: 85rem;
     margin: 0;
     cursor: pointer;
+    font-family: "Montserrat";
+    color: #152028;
+    background-color: #B7A287;
+    border-radius: 5px;
 }

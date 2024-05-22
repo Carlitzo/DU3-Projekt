@@ -14,13 +14,13 @@
             "name": "adriano",
             "password": "hejsan",
             "liked_recipes": [
-                7,
                 27,
                 2,
                 6,
                 9,
                 11,
-                14
+                14,
+                18
             ],
             "id": 3
         }
@@ -265,7 +265,7 @@
         {
             "recipe_id": 7,
             "country_id": 2,
-            "name": "Shepherd's Pie",
+            "name": "Cottage pie",
             "ingredients": [
                 "500g ground lamb or beef",
                 "1 onion, finely chopped",
