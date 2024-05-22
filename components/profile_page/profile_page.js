@@ -1,5 +1,8 @@
 async function render_profile_page() {
     document.querySelector("#wrapper").innerHTML = "";
+
+    const header_container = document.createElement("div");
+    header_container.id = "header";
  
     header_container.innerHTML = `
     <div id="name_slogan">
@@ -29,7 +32,7 @@ async function render_profile_page() {
         render_profile_page();
     })
 
-    document.querySelector("#logout").addEventListener("click", (event) => {
+    document.querySelector("#logout").addEventListener("click", () => {
         localStorage.clear();
         window.location.reload();
     })

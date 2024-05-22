@@ -26,9 +26,7 @@ async function render_liked(parent) {
             }
         }
     }
-
-
-    }
+}
     let image_8 = document.querySelectorAll(".background_img")
     console.log(image_8);
     image_8.forEach(image=>{
