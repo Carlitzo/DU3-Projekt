@@ -22,7 +22,7 @@ async function render_liked(parent) {
                 saved_recipe.innerHTML = `
                 <p class="recipe_title" >${recipes[i].name}</p>
                 <div class='background_img' class="background" style='background-image: url(${recipes[i].image})' recipe_id= '${recipes[i].recipe_id}'></div>
-                <button id="remove">REMOVE</button>`
+                <p class="remove">REMOVE</p>`
             }
         }
     }
