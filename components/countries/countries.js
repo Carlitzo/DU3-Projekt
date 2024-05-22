@@ -14,7 +14,7 @@ async function render_countries(images) {
             render_header(wrapper);
 
             try {
-                const response = await fetch("../../api/database.json"); // ändra till php fil och fetch_handler
+                const response = await fetch("../../api/database.json");
                 const data = await response.json();
 
                 const countryData = data.COUNTRIES.find(country => country.country_name === countryName);
