@@ -18,7 +18,6 @@
     font-size: 20px;
     color: #B7A287;
     font-family: "Montserrat";
-    font-weight: lighter;
 }
 
 .img_container {
@@ -68,7 +67,6 @@
 .recipe_title,
 .remove {
     font-family: "Montserrat";
-    font-weight: lighter;
 }
 
 #liked_wrapper>p {
