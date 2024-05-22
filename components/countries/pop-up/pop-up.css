@@ -35,6 +35,7 @@
     position: relative;
     top: 100px;
     left: 160px;
+    width: 800px;
 }
 
 .info_side_popup{
@@ -70,7 +71,7 @@
 
 .around_img_popup{
     width: 380px;
-    height: 380px;
+    height: 360px;
     background-color: #333F49;
     padding: 10px;
     border-radius: 20px;
@@ -80,7 +81,7 @@
 }
 
 .background_img_popup{
-    width: 360px;
+    width: 376px;
     height: 360px;  
     border-radius: 20px;
     background-position: center;
