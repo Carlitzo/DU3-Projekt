@@ -14,7 +14,7 @@ function render_header(parent) {
 
     parent.appendChild(header_container);
 
-    document.querySelector("#name_slogan").addEventListener("click", function () {
+    document.querySelector("#title").addEventListener("click", function () {
         wrapper.innerHTML = "";
         render_header(wrapper);
         render_nav(wrapper);

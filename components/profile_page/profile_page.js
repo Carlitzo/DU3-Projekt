@@ -1,7 +1,21 @@
 async function render_profile_page() {
-    document.querySelector("#wrapper").innerHTML = "";
+    
+    wrapper.innerHTML = "";
 
-    render_header(document.querySelector("#wrapper"));
+    const header_container = document.createElement("div");
+    header_container.id = "header";
+
+    header_container.innerHTML = `
+    <div id="name_slogan">
+        <p id="title" class="heading">Luxe Bites</p>
+        <p id="slogan" class="heading">Discover food from around the globe</p>
+        <h1 id="current_country"></h1> 
+        <div class= 'user_icon'>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>`;
+
+    wrapper.appendChild(header_container);
 
     const profile_wrapper = document.createElement("div");
     profile_wrapper.id = "profile_wrapper";
@@ -25,5 +39,4 @@ async function render_profile_page() {
 
     render_liked("left");
     render_list("right");
-
 }
