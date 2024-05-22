@@ -13,9 +13,30 @@ async function render_profile_page() {
         <div class= 'user_icon'>
             <i class="fa-solid fa-user"></i>
         </div>
+        <button id="logout">Log Out</button>
     </div>`;
 
+    
     wrapper.appendChild(header_container);
+    render_footer(wrapper);
+    
+    document.querySelector("#title").addEventListener("click", function () {
+        wrapper.innerHTML = "";
+        render_header(wrapper);
+        render_nav(wrapper);
+        render_footer(wrapper);
+        renderCarousel();
+        document.slide.src = "../../../media/country_images/England.jpg";
+    })
+
+    document.querySelector(".user_icon").addEventListener("click", function () {
+        render_profile_page();
+    })
+
+    document.querySelector("#logout").addEventListener("click", (event) => {
+        localStorage.clear();
+        window.location.reload();
+    })
 
     const profile_wrapper = document.createElement("div");
     profile_wrapper.id = "profile_wrapper";
@@ -28,6 +49,8 @@ async function render_profile_page() {
     const list_wrapper = document.createElement("div");
     list_wrapper.id = "list_wrapper";
     profile_wrapper.appendChild(list_wrapper);
+
+
 
     liked_wrapper.innerHTML = `
     <p>Saved recipes</p>
