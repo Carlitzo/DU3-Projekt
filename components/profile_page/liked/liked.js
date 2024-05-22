@@ -22,7 +22,7 @@ async function render_liked(parent) {
                 <div class="img_container">
                 <div  class="background" style='background-image: url(${recipes[i].image})' recipe_id= '${recipes[i].recipe_id}'></div>
                 </div>
-                <p class="remove">REMOVE</p>`
+                <p class="remove" recipe_id_reomve= '${recipes[i].recipe_id}'>REMOVE</p>`
             }
         }
     }
@@ -45,5 +45,17 @@ async function render_liked(parent) {
                 }
             }
         }
+    })
+
+    let remove_button = document.querySelectorAll(".remove");
+    console.log(remove_button);
+    remove_button.forEach(button=>{
+        button.addEventListener("click" ,()=>{
+
+            const recipe_id_reomve = button.getAttribute("recipe_id_reomve")
+            State.patch(recipe_id_reomve)
+            render_profile_page()
+            
+        })
     })
 }

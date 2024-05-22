@@ -42,3 +42,14 @@
     margin: 0;
     cursor: pointer;
 }
+
+#logout:hover {
+    background-color: #152028;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+#logour:hover i {
+    color: whitesmoke;
+    transition: 0.5s;
+}
