@@ -1,3 +1,3 @@
-async function render_list (parent) {
+function render_list (parent) {
     
 }
