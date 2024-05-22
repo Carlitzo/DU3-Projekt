@@ -40,7 +40,7 @@
     margin-left: 150px;
 }
 
-.user_icon{
+.user_icon {
     background-color: white;
     position: absolute;
     right: 20px;
@@ -54,16 +54,18 @@
     font-size: 40px;
 }
 
+#name_slogan {
+    width: 600px;
+}
 
 
-
-#name_slogan .user_icon:hover{
+#name_slogan .user_icon:hover {
     background-color: #152028;
     transition: 0.5s;
     cursor: pointer;
 }
 
-#name_slogan .user_icon:hover i{
+#name_slogan .user_icon:hover i {
     color: whitesmoke;
     transition: 0.5s;
 }
