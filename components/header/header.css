@@ -29,6 +29,7 @@
     margin-bottom: 15px;
     margin-left: 50px;
     cursor: pointer;
+    width: 250px;
 }
 
 #slogan {
@@ -53,10 +54,6 @@
 .user_icon i {
     color: #152028;
     font-size: 40px;
-}
-
-#name_slogan {
-    cursor: pointer;
 }
 
 #name_slogan .user_icon:hover {
