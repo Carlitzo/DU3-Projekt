@@ -24,7 +24,7 @@ function carousel() {
     images[2] = `../../../media/country_images/italy.jpg`;
     images[3] = `../../../media/country_images/nigeria.jpg`;
     images[4] = `../../../media/country_images/spain.jpg`;
-    console.log(index)
+
 
     document.slide.src = images[index];
 

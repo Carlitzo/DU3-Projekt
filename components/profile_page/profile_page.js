@@ -1,10 +1,6 @@
 async function render_profile_page() {
-    
-    wrapper.innerHTML = "";
-
-    const header_container = document.createElement("div");
-    header_container.id = "header";
-
+    document.querySelector("#wrapper").innerHTML = "";
+ 
     header_container.innerHTML = `
     <div id="name_slogan">
         <p id="title" class="heading">Luxe Bites</p>
@@ -55,11 +51,12 @@ async function render_profile_page() {
     liked_wrapper.innerHTML = `
     <p>Saved recipes</p>
     <div id="left"></div>`
-
+    
     list_wrapper.innerHTML = `
     <p>Shopping list</p>
     <div id="right"></div>`
-
+    
     render_liked("left");
     render_list("right");
+
 }
