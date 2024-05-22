@@ -47,4 +47,3 @@ async function render_liked(parent) {
             }
         })
     })
-}
