@@ -9,8 +9,20 @@
     <img name="slide" class="carousel_img">
     `;
     carouselWrapper.id = "carousel_wrapper";
-   }
+
+    let infoTextWrapper = document.createElement("div");
+    carouselWrapper.appendChild(infoTextWrapper);
+    infoTextWrapper.className = "infoTextBox";
+    infoTextWrapper.innerHTML = `
+    <p class="infoText"> Luxes Bites is your go-to destination for discovering delicious dishes from across the globe </br> bringing you a diverse range of culinary delights right to your screen </p>
+    <div id="line"></div>
+    <p class="infoText"> Please select one of the countries to the left to begin your culinary journey</p>
+    `
+
+}
+
 let index = 0;
+
 function carousel() {
     // starting point
     // let index = 0;
