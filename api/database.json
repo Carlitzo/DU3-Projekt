@@ -20,8 +20,7 @@
                 6,
                 9,
                 11,
-                14,
-                1
+                14
             ],
             "id": 3
         }
@@ -454,7 +453,7 @@
                 "Season with salt and black pepper to taste, and sprinkle the remaining parsley over the top.",
                 "Serve the spaghetti vongole immediately, garnished with extra parsley if desired."
             ],
-            "image": "..\/..\/media\/italian_dishes\/spaghetti_carbonara.jpg",
+            "image": "..\/..\/media\/italian_dishes\/paghetti_vongole.jpg",
             "preparation_time": "30 minutes"
         },
         {
@@ -718,7 +717,7 @@
                 "Once the soup is well combined and flavored, remove from heat.",
                 "Serve the banga soup hot in bowls alongside boiled starch or fufu."
             ],
-            "image": "..\/..\/media\/nigerian_dishes\/suya.jpg",
+            "image": "..\/..\/media\/nigerian_dishes\/banga_soup_with_starch.jpg",
             "preparation_time": "1 hour"
         }
     ]

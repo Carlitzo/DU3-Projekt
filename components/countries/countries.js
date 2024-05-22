@@ -13,7 +13,6 @@ async function render_countries(images) {
             render_footer(wrapper);
             render_header(wrapper);
 
-
             try {
                 const response = await fetch("../../api/database.json"); // ändra till php fil och fetch_handler
                 const data = await response.json();
@@ -23,7 +22,6 @@ async function render_countries(images) {
 
                 let div_1 = document.createElement("div");
                 div_1.classList.add("choosen_country");
-
 
                 div_1.innerHTML = `<img class='country_img' src= ${countryData.country_image}>
                 <p class='introductory_text'>${countryData.introductory_text}</p>
