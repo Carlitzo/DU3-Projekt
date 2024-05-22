@@ -69,6 +69,11 @@
     cursor: pointer;
 }
 
+.around_img:hover{
+    background-color: #B7A287C4;
+    transition: 0.8s;
+}
+
 .info_side{
     display: flex;
     gap: 35px;
