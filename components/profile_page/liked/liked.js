@@ -24,8 +24,8 @@ async function render_liked(parent) {
                 let recipe_name = recipes[y].name
                 let recipe_img = recipes[y].image
                 saved_recipe.innerHTML = `
-                <p class = 'recipe_name'>${recipe_name}</p>
-                <div class='background_img' id="background" style='background-image: url(${recipe_img})'></div>
+                <p class="recipe_title" >${recipe_name}</p>
+                <div class='background_img' class="background" style='background-image: url(${recipe_img})'></div>
                 <button id="remove">REMOVE</button>
                 `
             }
