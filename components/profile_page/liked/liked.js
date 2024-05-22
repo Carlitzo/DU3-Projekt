@@ -4,8 +4,6 @@ async function render_liked(parent) {
     let users = await fetch("../../api/users.php").then(r => r.json());
     let user_id = Number(localStorage.id);
     let liked_recipes = [];
-    console.log(users);
-    console.log(user_id)
 
     for (let i = 0; i < users.length; i++) {
         if (user_id === users[i].id) {
@@ -29,23 +27,20 @@ async function render_liked(parent) {
         }
     }
 
-
-    let image_8 = document.querySelectorAll(".background");
-    console.log(image_8);
-    image_8.forEach(image => {
+    let selected_image = document.querySelectorAll(".background");
+    selected_image.forEach(image => {
         image.addEventListener("click", ingredient_box)
 
         function ingredient_box() {
             let right_container = document.querySelector("#right")
             right_container.innerHTML = "";
-            let recipe_id_image = image.getAttribute("recipe_id")
-            console.log(recipe_id_image);
+            let recipe_id_image = image.getAttribute("recipe_id");
+
             for (let s = 0; s < recipes.length; s++) {
                 if (recipes[s].recipe_id == recipe_id_image) {
                     let ingredients = recipes[s].ingredients;
                     ingredients.forEach(ingredient => {
-                        right_container.innerHTML += `<div class="ing_list"><p>•</p><p>${ingredient}</p></div>`;
-
+                        right_container.innerHTML += `<div><input type ='checkbox'><p>${ingredient}</p></div>`;
                     });
                 }
             }
