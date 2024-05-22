@@ -34,14 +34,16 @@ async function render_liked(parent) {
         image.addEventListener("click",ingredient_box)
 
         function ingredient_box(){
+            let right_container = document.querySelector("#right")
+            right_container.innerHTML= "";
             let recipe_id_image =  image.getAttribute("recipe_id")
             console.log(recipe_id_image);
             for(let s = 0; s<recipes.length;s++){
                 if(recipes[s].recipe_id ==recipe_id_image){
                     let ingredients = recipes[s].ingredients;
-                    let right_container = document.querySelector("#right")
                         ingredients.forEach(ingredient => {
                             right_container.innerHTML += `<div><input type ='checkbox'><p>${ingredient}</p></div>`;
+                            
                         });
                 }
             }
