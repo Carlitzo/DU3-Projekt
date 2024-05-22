@@ -31,19 +31,21 @@ if ($requestMethod == "GET") {
     send(200, $users);
 }
 
-if ($requestMethod == "POST") { // Register a new user
+if ($requestMethod == "POST") // Register a new user
+{
     if (empty($requestData)) {
         abort(400, "Bad Request (empty request)");
     }
 
-    $userKeys = ["name", "password"];
+    $userKeys = ["name", "password", "liked_recipes"];
 
-    if (!requestContainsAllKeys($requestData, $userKeys)) {
+    if (requestContainsAllKeys($requestData, $userKeys) == false) {
         abort(400, "Bad Request (missing keys)");
     }
 
     $name = $requestData["name"];
     $user = findItemByKey("USERS", "name", $name);
+
     
     if ($user != false) {
         abort(400, "Bad Request (user already exists)");
@@ -53,6 +55,7 @@ if ($requestMethod == "POST") { // Register a new user
     unset($newUser["password"]);
     send(201, $newUser);
 }
+
 
 if ($requestMethod == "PATCH") {
     if (!isset($requestData["id"]) || !isset($requestData["recipe_id"])) {

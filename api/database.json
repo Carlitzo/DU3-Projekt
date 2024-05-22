@@ -19,6 +19,15 @@
                 1
             ],
             "id": 3
+        },
+        {
+            "name": "isra",
+            "password": "hejsan123",
+            "liked_recipes": [
+                1,
+                18
+            ],
+            "id": 4
         }
     ],
     "COUNTRIES": [
