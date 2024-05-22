@@ -10,14 +10,27 @@
     cursor: pointer;
 }
 
+.cancel-icon:hover{
+    cursor: pointer;
+    background-color: #B7A287;
+    color: #172C36;
+    transition: 0.5s;
+}
 
 .fa-x,
 .fa-bookmark{
     color: #B7A287;
     font-size: 40px;
     padding: 20px;
+    border-radius: 10px;    
 }
-
+.fa-x:hover
+{
+    cursor: pointer;
+    background-color: #B7A287;
+    color: #172C36;
+    transition: 0.5s;
+}
 .icons_options{
     display: flex;
     justify-content: end;

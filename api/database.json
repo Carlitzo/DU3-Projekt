@@ -14,7 +14,9 @@
             "name": "adriano",
             "password": "hejsan",
             "liked_recipes": [
-                27
+                27,
+                6,
+                1
             ],
             "id": 3
         }
