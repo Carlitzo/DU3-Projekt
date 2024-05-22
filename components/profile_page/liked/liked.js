@@ -18,8 +18,6 @@ async function render_liked(parent) {
             if (liked_recipes[y] == recipes[i].recipe_id){
                 const saved_recipe = document.createElement("div");
                 saved_recipe.id = "saved";
-                
-
                 real_parent.appendChild(saved_recipe);
                 saved_recipe.innerHTML = `
                 <p class="recipe_title" >${recipes[i].name}</p>
@@ -29,11 +27,7 @@ async function render_liked(parent) {
         }
     }
 
-    async function render_list (parent) {
-        for (let s = 0; s < r.length; s++) {
-            const element = array[index];
-            
-        }
+
     }
     let image_8 = document.querySelectorAll(".background_img")
     console.log(image_8);
@@ -46,7 +40,8 @@ async function render_liked(parent) {
                     let ingredients = recipes[s].ingredients;
                     console.log(ingredients);
                     function render_list (parent) {
-    
+                        let div_8 = document.querySelector("div");
+                        parent
                     }
                 }
             }
