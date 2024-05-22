@@ -4,7 +4,7 @@ async function render_liked(parent) {
     let users = await fetch("../../api/users.php").then(r => r.json());
     let user_id = Number(localStorage.id);
     let liked_recipes = [];
-  
+
     for (let i = 0; i < users.length; i++) {
         if (user_id === users[i].id) {
             liked_recipes = users[i].liked_recipes;
@@ -20,28 +20,28 @@ async function render_liked(parent) {
                 saved_recipe.innerHTML = `
                 <p class="recipe_title" >${recipes[i].name}</p>
                 <div class="img_container">
-                <div class='background_img' class="background" style='background-image: url(${recipes[i].image})' recipe_id= '${recipes[i].recipe_id}'></div>
+                <div  class="background" style='background-image: url(${recipes[i].image})' recipe_id= '${recipes[i].recipe_id}'></div>
                 </div>
                 <p class="remove">REMOVE</p>`
             }
         }
     }
-    
-    let selected_image = document.querySelectorAll(".background_img");
-    selected_image.forEach(image=>{
-        image.addEventListener("click",ingredient_box)
+
+    let selected_image = document.querySelectorAll(".background");
+    selected_image.forEach(image => {
+        image.addEventListener("click", ingredient_box)
 
         function ingredient_box() {
             let right_container = document.querySelector("#right")
-            right_container.innerHTML= "";
-            let recipe_id_image =  image.getAttribute("recipe_id");
+            right_container.innerHTML = "";
+            let recipe_id_image = image.getAttribute("recipe_id");
 
-            for(let s = 0; s<recipes.length;s++){
-                if(recipes[s].recipe_id ==recipe_id_image){
+            for (let s = 0; s < recipes.length; s++) {
+                if (recipes[s].recipe_id == recipe_id_image) {
                     let ingredients = recipes[s].ingredients;
-                        ingredients.forEach(ingredient => {
-                            right_container.innerHTML += `<div><input type ='checkbox'><p>${ingredient}</p></div>`;               
-                        });
+                    ingredients.forEach(ingredient => {
+                        right_container.innerHTML += `<div class="ing_list"><p>•</p><p>${ingredient}</p></div>`;
+                    });
                 }
             }
         }
