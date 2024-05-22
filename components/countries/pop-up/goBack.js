@@ -12,9 +12,6 @@ async function goBack(country_name, country_id) {
     render_footer(wrapper);
     render_header(wrapper);
 
-    const header_1 = document.querySelector("#header");
-    header_1.innerHTML += `<p class='selected_country'>${countryName.toUpperCase()}</p>`
-
     try {
         
         const response_countries = await fetch("../../api/countries.php");
@@ -31,6 +28,7 @@ async function goBack(country_name, country_id) {
 
         div_1.innerHTML = `<img class='country_img' src= ${countryData.country_image}>
                 <p class='introductory_text'>${countryData.introductory_text}</p>
+                <p class='selected_country'>${countryName.toUpperCase()}</p>
                 <div id='recipes_section'></div>`
 
         wrapper.appendChild(div_1);
