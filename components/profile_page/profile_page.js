@@ -60,6 +60,5 @@ async function render_profile_page() {
     <div id="right"></div>`
     
     render_liked("left");
-    render_list("right");
 
 }
