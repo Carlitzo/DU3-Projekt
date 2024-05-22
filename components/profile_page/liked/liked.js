@@ -22,7 +22,7 @@ async function render_liked(parent) {
                 saved_recipe.innerHTML = `
                 <p class="recipe_title" >${recipes[i].name}</p>
                 <div class="img_container">
-                <div class='background_img' class="background" style='background-image: url(${recipes[i].image})' recipe_id= '${recipes[i].recipe_id}'></div>
+                <div  class="background" style='background-image: url(${recipes[i].image})' recipe_id= '${recipes[i].recipe_id}'></div>
                 </div>
                 <p class="remove">REMOVE</p>`
             }
@@ -30,7 +30,7 @@ async function render_liked(parent) {
     }
 
 
-    let image_8 = document.querySelectorAll(".background_img");
+    let image_8 = document.querySelectorAll(".background");
     console.log(image_8);
     image_8.forEach(image => {
         image.addEventListener("click", ingredient_box)
@@ -44,7 +44,7 @@ async function render_liked(parent) {
                 if (recipes[s].recipe_id == recipe_id_image) {
                     let ingredients = recipes[s].ingredients;
                     ingredients.forEach(ingredient => {
-                        right_container.innerHTML += `<div><input type ='checkbox'><p>${ingredient}</p></div>`;
+                        right_container.innerHTML += `<div class="ing_list"><p>•</p><p>${ingredient}</p></div>`;
 
                     });
                 }
