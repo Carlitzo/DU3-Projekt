@@ -39,6 +39,10 @@
     background-size: cover;
 }
 
+.background:hover {
+    cursor: pointer;
+}
+
 .remove {
     color: #B7A287;
     box-sizing: border-box;
