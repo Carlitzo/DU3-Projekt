@@ -48,7 +48,6 @@ async function render_liked(parent) {
     })
 
     let remove_button = document.querySelectorAll(".remove");
-    console.log(remove_button);
     remove_button.forEach(button=>{
         button.addEventListener("click" ,()=>{
 
