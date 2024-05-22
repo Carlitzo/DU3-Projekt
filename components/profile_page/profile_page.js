@@ -23,12 +23,11 @@ async function render_profile_page() {
     
     document.querySelector("#title").addEventListener("click", function () {
         wrapper.innerHTML = "";
-        // renderCarousel();
+        renderCarousel();
         render_header(wrapper);
         render_nav(wrapper);
         render_footer(wrapper);
         // carousel();
-        document.slide.src = "../../../media/country_images/England.jpg";
     })
 
     document.querySelector(".user_icon").addEventListener("click", function () {

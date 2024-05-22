@@ -25,7 +25,6 @@ async function render_countries(images) {
 
                 div_1.innerHTML = `<img class='country_img' src= ${countryData.country_image}>
                 <p class='introductory_text'>${countryData.introductory_text}</p>
-                <p class='selected_country'>${countryName.toUpperCase()}</p>
                 <div id='recipes_section'></div>`
 
                 wrapper.appendChild(div_1);

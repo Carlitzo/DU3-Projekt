@@ -32,7 +32,10 @@
         {
             "name": "isramash",
             "password": "hello123",
-            "liked_recipes": [],
+            "liked_recipes": [
+                16,
+                18
+            ],
             "id": 5
         }
     ],
