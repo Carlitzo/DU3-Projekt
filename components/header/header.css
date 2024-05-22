@@ -56,8 +56,6 @@
 }
 
 
-
-
 #name_slogan .user_icon:hover{
     background-color: #152028;
     transition: 0.5s;
@@ -68,3 +66,4 @@
     color: whitesmoke;
     transition: 0.5s;
 }
+
