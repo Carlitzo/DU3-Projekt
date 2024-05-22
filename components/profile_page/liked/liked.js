@@ -6,43 +6,45 @@ async function render_liked(parent) {
     let liked_recipes = [];
     console.log(users);
     console.log(user_id)
-  
+
     for (let i = 0; i < users.length; i++) {
         if (user_id === users[i].id) {
             liked_recipes = users[i].liked_recipes;
         }
     }
 
-    for(let i = 0; i<recipes.length;i++){
-        for(let y= 0; y<liked_recipes.length; y++){
-            if (liked_recipes[y] == recipes[i].recipe_id){
+    for (let i = 0; i < recipes.length; i++) {
+        for (let y = 0; y < liked_recipes.length; y++) {
+            if (liked_recipes[y] == recipes[i].recipe_id) {
                 const saved_recipe = document.createElement("div");
                 saved_recipe.id = "saved";
                 real_parent.appendChild(saved_recipe);
                 saved_recipe.innerHTML = `
                 <p class="recipe_title" >${recipes[i].name}</p>
+                <div class="img_container">
                 <div class='background_img' class="background" style='background-image: url(${recipes[i].image})' recipe_id= '${recipes[i].recipe_id}'></div>
-                <button id="remove">REMOVE</button>`
+                </div>
+                <p class="remove">REMOVE</p>`
             }
         }
     }
-    
+
 
     let image_8 = document.querySelectorAll(".background_img");
     console.log(image_8);
-    image_8.forEach(image=>{
-        image.addEventListener("click",ingredient_box)
+    image_8.forEach(image => {
+        image.addEventListener("click", ingredient_box)
 
-        function ingredient_box(){
-            let recipe_id_image =  image.getAttribute("recipe_id")
+        function ingredient_box() {
+            let recipe_id_image = image.getAttribute("recipe_id")
             console.log(recipe_id_image);
-            for(let s = 0; s<recipes.length;s++){
-                if(recipes[s].recipe_id ==recipe_id_image){
+            for (let s = 0; s < recipes.length; s++) {
+                if (recipes[s].recipe_id == recipe_id_image) {
                     let ingredients = recipes[s].ingredients;
                     let right_container = document.querySelector("#right")
-                        ingredients.forEach(ingredient => {
-                            right_container.innerHTML += `<div><input type ='checkbox'><p>${ingredient}</p></div>`;
-                        });
+                    ingredients.forEach(ingredient => {
+                        right_container.innerHTML += `<div><input type ='checkbox'><p>${ingredient}</p></div>`;
+                    });
                 }
             }
         }
