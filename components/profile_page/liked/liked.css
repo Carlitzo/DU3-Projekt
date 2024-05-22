@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../../../font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+#left {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: auto;
+}
+
+.recipe_title {
+    font-size: 26px;
+    color: #B7A287;
+    font-family:"Montserrat";
+}
+
+.background {
+    padding: 5px;
+    border: 1px solid #B7A287;
+}

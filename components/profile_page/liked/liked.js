@@ -19,12 +19,13 @@ async function render_liked(parent) {
             console.log("you made it to 3rd")
             if (liked_recipes[i] === recipes[y].recipe_id) {
                 const saved_recipe = document.createElement("div");
+                saved_recipe.id = "saved";
                 real_parent.appendChild(saved_recipe);
                 let recipe_name = recipes[y].name
                 let recipe_img = recipes[y].image
                 saved_recipe.innerHTML = `
-                <p class = 'recipe_name'>${recipe_name}</p>
-                <div class='background_img' style='background-image: url(${recipe_img})'></div>
+                <p class="recipe_title" >${recipe_name}</p>
+                <div class='background_img' class="background" style='background-image: url(${recipe_img})'></div>
                 <button id="remove">REMOVE</button>
                 `
             }
