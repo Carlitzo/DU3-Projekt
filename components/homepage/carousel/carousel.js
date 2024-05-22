@@ -6,10 +6,9 @@
     parent.appendChild(carouselWrapper);
     carouselWrapper.id = "carousel_wrapper";
     carouselWrapper.innerHTML = `
-    <img name="slide" class="carousel_img">
+    <img src="../../../media/Homepage/homepage.jpg "name="slide" class="carousel_img">
     `;
     carouselWrapper.id = "carousel_wrapper";
-
     let infoTextWrapper = document.createElement("div");
     carouselWrapper.appendChild(infoTextWrapper);
     infoTextWrapper.className = "infoTextBox";
@@ -20,27 +19,27 @@
     `
 }
 
-let index = 0;
+// let index = 0;
 
-function carousel() {
-    // timer
-    let time = 4000;
-    //image array
-    let images = [];
-    //image list
-    images[0] = `../../../media/country_images/England.jpg`;
-    images[1] = `../../../media/country_images/india.jpg`;
-    images[2] = `../../../media/country_images/italy.jpg`;
-    images[3] = `../../../media/country_images/nigeria.jpg`;
-    images[4] = `../../../media/country_images/spain.jpg`;
+// function carousel() {
+//     // timer
+//     let time = 4000;
+//     //image array
+//     let images = [];
+//     //image list
+//     images[0] = `../../../media/country_images/England.jpg`;
+//     images[1] = `../../../media/country_images/india.jpg`;
+//     images[2] = `../../../media/country_images/italy.jpg`;
+//     images[3] = `../../../media/country_images/nigeria.jpg`;
+//     images[4] = `../../../media/country_images/spain.jpg`;
     
-    document.slide.src = images[index];
+//     document.slide.src = images[index];
     
-    if (index < images.length - 1) {
-        index++;
-    } else {
-        index = 0;
-    }
-    let timeout = setTimeout("carousel()", time);
-    timeout;
-}
+//     if (index < images.length - 1) {
+//         index++;
+//     } else {
+//         index = 0;
+//     }
+//     let timeout = setTimeout("carousel()", time);
+//     timeout;
+// }
