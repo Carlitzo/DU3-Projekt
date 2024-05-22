@@ -21,9 +21,9 @@
 #title {
     color: #FFF;
     font-family: "Montserrat";
+    font-weight: lighter;
     font-size: 48px;
     font-style: normal;
-    font-weight: 300;
     line-height: normal;
     margin-top: 0;
     margin-bottom: 15px;
@@ -36,7 +36,7 @@
     font-family: "Montserrat";
     font-size: 20px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: lighter;
     line-height: normal;
     margin-left: 150px;
 }
@@ -59,7 +59,7 @@
     cursor: pointer;
 }
 
-#name_slogan .user_icon:hover{
+#name_slogan .user_icon:hover {
     background-color: #152028;
     transition: 0.5s;
     cursor: pointer;
@@ -69,4 +69,3 @@
     color: whitesmoke;
     transition: 0.5s;
 }
-
