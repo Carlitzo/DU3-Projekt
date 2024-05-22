@@ -39,8 +39,11 @@
     background-size: cover;
 }
 
-.background:hover {
+.img_container:hover {
     cursor: pointer;
+    background-color: #B7A287;
+    transition: 0.5s;
+
 }
 
 .remove {
@@ -55,6 +58,10 @@
 
 .remove:hover {
     cursor: pointer;
+    background-color: #b7a28791;
+    color: #172C36;
+    transition: 0.5s;
+
 }
 
 .recipe_title,

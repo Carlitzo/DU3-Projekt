@@ -12,7 +12,9 @@ async function render_profile_page() {
         <div class= 'user_icon'>
             <i class="fa-solid fa-user"></i>
         </div>
-        <button id="logout">Log Out</button>
+        <div id="logout">
+        <button >Log Out</button>
+        </div>
     </div>`;
 
     
